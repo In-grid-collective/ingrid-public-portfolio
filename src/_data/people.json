@@ -1,0 +1,18 @@
+[
+	{
+		"key":"bsmith",
+		"name":"Boo Smith",
+		"bio": "Boo did something or another.",
+		"website":"/",
+		"photo":"300.jpeg",
+		"instagram":"in_grid___"
+	},
+	{
+		"key":"cblerg",
+		"name":"Cat Blerg",
+		"bio":"Cat did something or another.",
+		"website":"/",
+		"photo":"300.jpeg",
+		"instagram":"in_grid___"
+	}
+]

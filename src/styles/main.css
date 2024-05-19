@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); */
+
+@font-face {
+  font-family: "Anthony";
+  src: url("../../public/assets/fonts/anthony-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Garamondt-Regular";
+  src: url("../../public/assets/fonts/garamondt-regular-webfont.woff")format("woff");
+}
+
+@font-face {
+	font-family: "Kreon-Regular";
+	src: url("../../public/assets/fonts/kreon-regular-webfont.woff")format("woff");
+  }
+
+
+body {
+	/* padding-top: 80px; if you have a fixed nav bar at the top */
+}
+img {
+	max-width: 100%;
+	height:auto;
+}
+
+/* p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+ */
+
+.project-text ul a[href],
+.project-text p a[href]{
+  text-decoration: underline;
+}
+
+.project-text a[href]:hover,
+.project-text a[href]:active {
+	color: grey;
+}
+
+.project-text  :first-child {
+	margin-top: 0;
+}
+
+
+.project-text p{
+  margin: 1em 0;
+}
+
+.project-text h1{
+  font-size: 2em;
+}
+
+.project-text h2{
+  font-size: 1.5em;
+}
+
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px solid grey;
+	padding: 1em 0;
+  margin-top: 3em;
+}
+
+
+/* Nav */
+a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* .project-description{
+	margin-top: 20px;
+} */
+
+
+/* projects list */
+.projectlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.projectlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.projectlist-date{
+	font-size: 0.8125em; 
+	color: var(--color-gray-90);
+}
+.projectlist-date {
+	word-spacing: -0.5px;
+}
+.projectlist-link {
+	width:100%;
+	font-size: 1.1875em; 
+	font-weight: 700;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.projectlist-item-active .projectlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+/* .project-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.projectlist-item > .project-tag {
+	align-self: center;
+} */
+
+/* Tags list */
+/* .project-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.project-metadata time {
+	margin-right: 1em;
+} */
+
+
+/* original aspect ratio width="640" height="360" */
+.responsive-video{
+    position: relative;
+    width: 100%; /* adjust this and the padding-top to change how big it is*/
+    height: 0;
+    padding-top: 57%; /* padding top is in reltation to the width of parent, it preserves aspect ratio*/
+    /* margin: 0 auto; */ /*this would center your video in the section container*/
+}
+.responsive-video iframe{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+}

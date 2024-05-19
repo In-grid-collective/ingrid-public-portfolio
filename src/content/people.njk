@@ -1,0 +1,13 @@
+---
+layout: home.njk
+pagination:
+   data: people
+   size: 100
+eleventyNavigation:
+  key: People
+  order: 3
+---
+<h1>People</h1>
+
+{% set peoplelist = people %}
+{% include "person-icon.njk" %}

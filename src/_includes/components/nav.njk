@@ -1,0 +1,46 @@
+{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+{# Read more about Bootstrap navbar: https://getbootstrap.com/docs/5.0/components/navbar/  #}
+{# Read more about Bootstrap navs: https://getbootstrap.com/docs/5.0/components/navs/ #}
+{# <nav class="navbar fixed-top navbar-light bg-light navbar-expand-md">
+    <h2 class="visually-hidden">Top level navigation menu</h2>
+    <a href="/" class="navbar-brand">{{ metadata.title }}</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <ul class="navbar-nav">
+            {%- for entry in collections.all | eleventyNavigation %}
+                <li class="nav-item"><a href="{{ entry.url }}" class="nav-link active" {% if entry.url == page.url %} aria-current="page" {% endif %}>{{ entry.title }}</a></li>
+            {%- endfor %}
+        </ul>
+    </div>
+</nav> #}
+
+
+{# Bootstrap nav bar for reference above only #}
+
+
+<nav class="bg-white ">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="/" class=" normal-case text-4xl font-Test2 text-indigo-600 justify-start">In-grid</a>
+    <button id="navbar-toggle" data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-indigo-600 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+    
+    <div class="hidden w-full  md:w-auto md:block" id="navbar-content">
+        <ul class="flex flex-col p-4 md:p-0  menu menu-horizontal px-1 md:flex-row md:space-x-8  md:mt-0 md:border-0">
+          {# <li><a class="btn btn-ghost font-Test3 normal-case text-3xl text-primary ">About</a></li> #}
+          {# <li><a href="{{ portfolio.url | url }}" class="btn btn-ghost font-Test3 normal-case text-3xl text-primary hover:secondary ">Portfolio</a></li> #}
+          
+        {%- for entry in collections.all | eleventyNavigation %}
+            {# Exclude the home button as in-grid button will take you home #}
+            <li><a href="{{ entry.url }}" class="btn btn-ghost font-Test2 normal-case text-3xl text-indigo-600 hover:secondary" {% if entry.url == page.url %} aria-current="page" {% endif %}>{{ entry.title }}</a></li>
+        {%- endfor %}
+
+        </ul>
+      </div>
+    </div>
+</nav>
