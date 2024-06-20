@@ -2,16 +2,43 @@
 
 - [X] Credit Tags: Producer, Production Support, Event Support, Participating Artist (Becky) We should discuss with wider group.
 - [X] [Bio Pages based on this tut](https://www.raymondcamden.com/2020/08/24/supporting-multiple-authors-in-an-eleventy-blog). Could be improved. (Becky)
-- [ ] Content for all events
+- [X] Content for all events
 - [ ] Origin Story -> summary of residency, style it in the vibe of the residency page maybe? 
-- [ ] Residency events and pages ???? 
+- [X] Residency events and pages ???? 
 - [ ] CSS Styling -> in main.css you can keep / remove css style overrides. 
 - [ ] Masonry Grid / Full screen image? Images (Becky)
 - [ ] Add socials / links out: Insta, resident advisor, youtube in footer.njk in content/_includes/components + add tailwind styling (Sunni?)
-- [ ] Hero template (Becky)
-- [ ] Tailwind rules for paragraph, headers, header font, body font... etc (Sunni)
-- [ ] People bio page design 
-- [ ] People credits layout design
+- [X] Tailwind rules for paragraph, headers, header font, body font... etc (Sunni)
+
+Homepage:
+- [ ] Improve the styling of recent activities by adapting the styling from project page
+- [ ] Styling of tagging list (Ref: https://www.future-expansion.com/#featured)
+- [ ] Improve the styling of marquee 
+
+Portfolio list:
+- [ ] Make sure the grid doesn’t break because of larger image
+
+Portfolio:
+- [ ] Make image size bigger and stack date, tags, and short description on the left column
+- [ ] Image gallery can remain in masonry layout
+- [ ] Make Image full screen after clicking
+- [ ] Have only one row for mobile layout (https://tailwindcss.com/docs/responsive-design)
+- [ ] Make font and padding in % unit for responsive design (https://tailwindcss.com/docs/font-size)
+
+About:
+- [ ] Stick to Johanna’s design 
+
+People:
+- [ ] Make Bio grid on top of credits grid
+- [ ] Rearrange the information grids and how it stacks in different devices
+- [ ] Use expandable table for credits (https://daisyui.com/components/accordion/)
+- [ ] Combine Bio and other info 
+
+Tagged page:
+- [ ] Styling of “Tagged” title
+- [ ] Styling of the tagged project list
+
+
 
 ---
 
