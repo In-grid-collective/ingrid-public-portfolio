@@ -9,6 +9,7 @@
 - [ ] Masonry Grid / Full screen image? Images (Becky)
 - [ ] Add socials / links out: Insta, resident advisor, youtube in footer.njk in content/_includes/components + add tailwind styling (Sunni?)
 - [X] Tailwind rules for paragraph, headers, header font, body font... etc (Sunni)
+- [X] Manual fix for broken fonts on github pages
 
 Homepage:
 - [ ] Improve the styling of recent activities by adapting the styling from project page
@@ -16,17 +17,19 @@ Homepage:
 - [ ] Improve the styling of marquee 
 
 Portfolio list:
-- [ ] Make sure the grid doesn’t break because of larger image
+- [X] Make sure the grid doesn’t break because of larger image: tailwind break inside column fix from here: https://stackoverflow.com/questions/76525229/tailwind-columns-cutting-off-setting-height
 
 Portfolio:
-- [ ] Make image size bigger and stack date, tags, and short description on the left column
+- [X] Make image size bigger and stack date, tags, and short description on the left column
 - [ ] Image gallery can remain in masonry layout
 - [ ] Make Image full screen after clicking
-- [ ] Have only one row for mobile layout (https://tailwindcss.com/docs/responsive-design)
+- [X] Have only one row for mobile layout (https://tailwindcss.com/docs/responsive-design)
 - [ ] Make font and padding in % unit for responsive design (https://tailwindcss.com/docs/font-size)
+- [ ] Arebyte Residency page, copy and structure ideas from here https://pad.riseup.net/p/9G1AqW1LBCHdw1JV8AYm-keep 
 
 About:
 - [ ] Stick to Johanna’s design 
+- [ ] Enter About page draft of copy / text from here: https://pad.riseup.net/p/9G1AqW1LBCHdw1JV8AYm-keep 
 
 People:
 - [ ] Make Bio grid on top of credits grid
@@ -38,7 +41,12 @@ Tagged page:
 - [ ] Styling of “Tagged” title
 - [ ] Styling of the tagged project list
 
+Banner text:
+- [ ] What's the purpose of the scrolling banner? Is this the latest / update stuff? Can we make this into a template that's easy to update or show/hide depending if we have a callout or not? for now put it into base.njk
 
+
+General:
+- [ ] Replace all assets with local versions... e.g. svgs for dashed lines.
 
 ---
 

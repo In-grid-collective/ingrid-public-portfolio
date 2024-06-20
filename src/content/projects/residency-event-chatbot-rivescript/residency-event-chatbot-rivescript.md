@@ -5,6 +5,7 @@ date: 2020-06-15
 icon: Chatbot_riverscript.png
 tags:
   - workshop
+  - digital labour
 ---
 
 <div class="responsive-video">

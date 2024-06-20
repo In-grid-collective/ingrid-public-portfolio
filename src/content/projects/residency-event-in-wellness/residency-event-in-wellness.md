@@ -4,8 +4,8 @@ description: Jake Charles Rees and In-grid hosted a speculative cyber-welfare™
 date: 2020-07-09
 icon: In-Wellness.jpeg
 tags:
-  - live performance
   - workshop
+  - digital labour
 ---
 
 

@@ -8,19 +8,19 @@
 @font-face {
   font-family: "Anthony";
   src: url("../../public/assets/fonts/anthony-webfont.woff") format("woff"),
-  		url("../../ingrid-public-portfolio/public/assets/fonts/anthony-webfont.woff") format("woff");
+  		url("https://in-grid-collective.github.io/ingrid-public-portfolio/public/assets/fonts/anthony-webfont.woff") format("woff");
 }
 
 @font-face {
   font-family: "Garamondt-Regular";
   src: url("../../public/assets/fonts/garamondt-regular-webfont.woff")format("woff"),
-       url("../../ingrid-public-portfolio/public/assets/fonts/garamondt-regular-webfont.woff")format("woff");
+       url("https://in-grid-collective.github.io/ingrid-public-portfolio/public/assets/fonts/garamondt-regular-webfont.woff")format("woff");
 }
 
 @font-face {
 	font-family: "Kreon-Regular";
 	src: url("../../public/assets/fonts/kreon-regular-webfont.woff")format("woff"),
-		url("../../ingrid-public-portfolio/public/assets/fonts/kreon-regular-webfont.woff")format("woff");
+		url("https://in-grid-collective.github.io/ingrid-public-portfolio/public/assets/fonts/kreon-regular-webfont.woff")format("woff");
   }
 
 

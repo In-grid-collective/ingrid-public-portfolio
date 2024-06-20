@@ -35,7 +35,16 @@
 		<header>
 			{% include "nav.njk" %}
 		</header>
+		{# TO-DO: BANNER TEMPLATE SOMEHOW ?? #}
+		<div class="font-Test2 pointer-events-none relative flex overflow-hidden shadow-lg shadow-indigo-600 border border-dashed border-y-indigo-600 py-8 hover:text-white hover:bg-indigo-600">
+			<div class="animate-marquee text-indigo-600 flex min-w-full shrink-0 items-center justify-around  ">
+				<span class="mx-4 text-4xl">TRANSNATIONAL ANTI-COLONIAL TRANS★FEMINIST COUNTER CLOUD ACTION DAY</span>
+			</div>
+			<div aria-hidden="true" class="text-indigo-600 animate-marquee flex min-w-full shrink-0 items-center justify-around ">
+					<span class="mx-4 text-4xl">TRANSNATIONAL ANTI-COLONIAL TRANS★FEMINIST COUNTER CLOUD ACTION DAY</span>
 
+			</div>
+		</div>
 		{# better to put styling on project.njk or home.njk page so it can be specfici to that page #}
 		<main class="m-2">
 			{{ content | safe }}

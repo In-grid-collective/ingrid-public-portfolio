@@ -5,6 +5,7 @@ date: 2020-06-10
 icon: Tega_brain.png
 tags:
   - talk
+  - shadow subversions
 ---
 
 <!-- 
