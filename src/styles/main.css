@@ -24,13 +24,43 @@
   }
 
 
-body {
-	/* padding-top: 80px; if you have a fixed nav bar at the top */
-}
+
 img {
-	max-width: 100%;
+	width: 100%;
 	height:auto;
 }
+
+@layer base {
+	body {
+		@apply text-indigo-600;
+		@apply font-main;
+		@apply text-lg;
+	}
+	
+	h1 {
+		@apply text-4xl;
+		@apply font-Test2;
+	}
+	h2 {
+		@apply text-2xl;
+		@apply font-Test2;
+	}
+	h3 {
+		@apply text-xl;
+		@apply font-Test3;
+		@apply mt-2
+	}
+	.main-content p{
+		@apply my-4;
+	}
+
+	.main-content a{
+		@apply underline;
+	}
+
+
+}
+  
 
 /* p:last-child {
 	margin-bottom: 0;
@@ -112,8 +142,8 @@ a[href][aria-current="page"] {
 }
 .projectlist-link {
 	width:100%;
-	font-size: 1.1875em; 
-	font-weight: 700;
+	/* font-size: 1.1875em;  */
+	/* font-weight: 700; */
 	text-underline-position: from-font;
 	text-underline-offset: 0;
 	text-decoration-thickness: 1px;
@@ -147,19 +177,18 @@ a[href][aria-current="page"] {
 	margin-right: 1em;
 } */
 
-
 /* original aspect ratio width="640" height="360" */
-.responsive-video{
-    position: relative;
-    width: 100%; /* adjust this and the padding-top to change how big it is*/
-    height: 0;
-    padding-top: 57%; /* padding top is in reltation to the width of parent, it preserves aspect ratio*/
-    /* margin: 0 auto; */ /*this would center your video in the section container*/
+.responsive-video .video-container{
+	position: relative;
+	width: 90%; /* adjust this and the padding-top to change how big it is*/
+	height: 0;
+	padding-top: 51%; /* padding top is in reltation to the width of parent, it preserves aspect ratio*/
+	margin: 5vw auto;  /*this would center your video in the section container*/
 }
-.responsive-video iframe{
-    position: absolute;
-    top:0;
-    left:0;
-    height: 100%;
-    width: 100%;
+.video-container iframe{
+	position: absolute;
+	top:0;
+	left:0;
+	height: 100%;
+	width: 100%;
 }

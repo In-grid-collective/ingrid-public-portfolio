@@ -14,9 +14,9 @@ eleventyComputed:
   title: Tagged “{{ tag }}”
 permalink: /tags/{{ tag | slugify }}/
 ---
-<h1>Tagged “{{ tag }}”</h1>
+<h1 class="m-4 mt-8">Tagged “{{ tag }}”</h1>
 
 {% set projectlist = collections[ tag ] %}
 {% include "projectlist.njk" %}
 
-<p>See <a href="/tags/">all tags</a>.</p>
+<p>See <a href="/">all tags on home page</a></p>

@@ -2,23 +2,27 @@
 layout: base.njk
 ---
 
-<div class="max-w-screen-xl mx-auto mt-16 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4 border-dotted border-indigo-600 border shadow-lg shadow-indigo-600">
+<div class="max-w-screen-xl mx-auto mt-16 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-8 border-dotted border-indigo-600 border shadow-lg shadow-indigo-600">
+	{# TITLE #}
 	<div class="p-2 col-span-3 border-indigo-600 border text-indigo-600 border-dotted shadow-lg shadow-indigo-600">	
-		<div class="flex items-center justify-center font-Test2 text-3xl  ">
+		<h1 class="flex items-center justify-center">
 			{{ title }}
-		</div>
+		</h1>
 	</div>
-  	<div class="col-span-3 md:col-span-1 lg:col-span-2 grid grid-cols-1 md:grid-cols-2 auto-rows-min">	
 
+  	<div class="col-span-3 md:col-span-1 lg:col-span-2 grid grid-cols-1 md:grid-cols-2 auto-rows-min">	
+		{# DATE #}
 		<div class="p-4 mb-4 col-span-1 border-indigo-600 border text-indigo-600 border-dotted">		
 			<p class=" italic font-main">
 				<time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
 			</p> 
 		</div>
+		{# DESCRIPTION #}
 		<p class="p-4 project-description mb-4 col-span-1 md:col-span-2 font-main border-indigo-600 border text-indigo-600 border-dotted shadow-lg shadow-indigo-600 ">
 			{{description}}		
 		</p>
-		 <div class="p-4 col-span-1 md:col-span-2 border-indigo-600 border text-indigo-600 border-dotted ">		
+		{# TAGS #}
+		<div class="p-4 col-span-1 md:col-span-2 border-indigo-600 border text-indigo-600 border-dotted ">		
 			<ul class=" relative project-metadata font-main">
 			{%- for tag in tags | filterTagList %}
 			{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
@@ -26,15 +30,15 @@ layout: base.njk
 			{%- endfor %}
 			</ul>
 		</div>
-
 	</div>
-	<div class="p-2 col-span-3 md:col-span-1  border-indigo-600 border text-indigo-600 border-dotted">	
+	{# IMAGE ICON #}
+	<div class="flex justify-center items-center p-2 col-span-3 md:col-span-1  border-indigo-600 border text-indigo-600 border-dotted">	
 		{% if icon %}
 			{% set imgurl = "./"+icon %}
 			{% image imgurl, "" %}
 		{% endif %}
 	</div>
-	<div class="p-4 col-span-3 border-indigo-600 border text-indigo-600 border-dotted font-main">
+	<div class="main-content p-4 col-span-3 border-indigo-600 border text-indigo-600 border-dotted">
 		{{ content | safe }}
   	</div>
   
@@ -55,7 +59,15 @@ layout: base.njk
 	{%- endif %}
 
 
-
+  {%- if videos %}
+	{% for video in videos %}
+		<div class="col-span-3 responsive-video shadow-inner shadow-indigo-600 border border-dotted border-indigo-600">
+			<div class="video-container">
+				<iframe title="vimeo-player" src="{{video}}" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div> 
+	{% endfor %}
+  {%- endif %}
 
   {%- if credits %}
 	<div class="p-2 col-span-3 border-indigo-600 border text-indigo-600 border-dotted">
@@ -75,14 +87,6 @@ layout: base.njk
 </div>
 
 
-<div class="justify-between flex pt-6 text-indigo-600">
-	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-		<path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18" />
-	</svg>
-	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-		<path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-	</svg>
-</div>
 
 
 {%- if collections.projects %}
@@ -90,8 +94,36 @@ layout: base.njk
 {%- set nextProject = collections.projects | getNextCollectionItem %}
 {%- if nextProject or previousProject %}
 <div class="justify-between flex ">
-	{%- if previousProject %}<div class="justify-start font-Test3 text-indigo-600"><a href="{{ previousProject.url }}">{{ previousProject.data.title }}</a></div>{% endif %}
-	{%- if nextProject %}<div class="justify-end font-Test3 text-indigo-600 text-right"><a href="{{ nextProject.url }}">{{ nextProject.data.title }}</a></div>{% endif %}
+
+
+	<div class="justify-start font-Test3 text-indigo-600">
+		{%- if nextProject %}
+		
+			<a href="{{ nextProject.url }}">
+				<div class="justify-start flex pt-6 text-indigo-600">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18" />
+					</svg>
+				</div>
+				{{ nextProject.data.title }}
+			</a>
+			
+		{% endif %}
+	</div>
+	<div class="justify-end font-Test3 text-indigo-600 text-right ">
+		{%- if previousProject %}
+		
+			<a href="{{ previousProject.url }}">
+				<div class="justify-end flex pt-6 text-indigo-600">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+					</svg>	
+				</div>
+				{{ previousProject.data.title }}
+				
+			</a>
+		{% endif %}
+	</div>
 </div>
 {%- endif %}
 {%- endif %}

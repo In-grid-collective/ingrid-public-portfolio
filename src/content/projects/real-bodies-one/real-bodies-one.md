@@ -15,11 +15,6 @@ credits:
     role: participating artist
 ---
 
-## Real Bodies at Corsica
-<!-- 
-If I wanted to I could mix in some HTML elements if I wanted to something custom on a page like link out to one of my projects:
-
-<a href="/projects/firstproject/">First Project</a> -->
 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel nulla leo. Praesent vitae ligula lacinia, viverra sapien eget, pharetra ipsum. In dignissim bibendum diam, sit amet malesuada metus rhoncus ac. Fusce posuere aliquet lectus vel gravida. Proin ipsum lectus, interdum nec tincidunt nec, cursus vitae massa. Sed pulvinar lorem viverra, hendrerit lacus vestibulum, placerat enim. Vivamus ac dui pellentesque, facilisis felis eu, mattis dui. Sed quis porta ipsum. Integer sed pellentesque nibh.

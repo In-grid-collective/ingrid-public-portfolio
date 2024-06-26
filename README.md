@@ -28,14 +28,15 @@ Portfolio:
 - [ ] Arebyte Residency page, copy and structure ideas from here https://pad.riseup.net/p/9G1AqW1LBCHdw1JV8AYm-keep 
 
 About:
-- [ ] Stick to Johanna’s design 
-- [ ] Enter About page draft of copy / text from here: https://pad.riseup.net/p/9G1AqW1LBCHdw1JV8AYm-keep 
+- [X] Stick to Johanna’s design 
+- [X] Enter About page draft of copy / text from here: https://pad.riseup.net/p/9G1AqW1LBCHdw1JV8AYm-keep 
+- [ ] Add links to tags in the "what we do section"
 
 People:
-- [ ] Make Bio grid on top of credits grid
-- [ ] Rearrange the information grids and how it stacks in different devices
+- [X] Make Bio grid on top of credits grid
+- [X] Rearrange the information grids and how it stacks in different devices
 - [ ] Use expandable table for credits (https://daisyui.com/components/accordion/)
-- [ ] Combine Bio and other info 
+- [X] Combine Bio and other info 
 
 Tagged page:
 - [ ] Styling of “Tagged” title
@@ -46,7 +47,8 @@ Banner text:
 
 
 General:
-- [ ] Replace all assets with local versions... e.g. svgs for dashed lines.
+- [ ] Replace all assets with local versions... e.g. svgs for arrows
+- [ ] Add links to the socials in the footer
 
 ---
 
