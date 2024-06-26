@@ -19,11 +19,11 @@ eleventyComputed:
       {% endif %}
     </div>
     {# NAME #}
-    <div class="p-2 row-span-4 border-indigo-600 border border-dotted text-indigo-600 shadow-md shadow-indigo-600">  
+    <div class="p-4 row-span-4 border-indigo-600 border border-dotted text-indigo-600 shadow-md shadow-indigo-600">  
       <h2 class="font-Test2 text-3xl">{{ person.name }}</h2>
     </div>
     {# SOCIALS #}
-    <div class="p-2 row-span-1 border-indigo-600 border border-dotted text-indigo-600 shadow-md shadow-indigo-600">    <p class="font-main">
+    <div class="p-4 row-span-1 border-indigo-600 border border-dotted text-indigo-600 shadow-md shadow-indigo-600">    <p class="font-main">
         Website: <a href="{{person.website}}" target="_new">{{person.website}}</a><br/>
         Instagram: <a href="https://instagram.com/{{person.instagram}}" target="_new">@{{person.instagram}}</a>
       </p>
@@ -31,141 +31,98 @@ eleventyComputed:
   </div>
   <div class="col-span-1 md:col-span-2 grid gap-4">
     {# BIO #}
-    <div class="p-2 row-span-1 border-indigo-600  border-dotted text-indigo-600 shadow-inner shadow-indigo-600">    
+    <div class="p-4 row-span-1 border-indigo-600 border border-dotted text-indigo-600 shadow-md shadow-indigo-600">    
       <p class="font-main">{{person.bio}}</p>
     </div>
+    
     {# CREDITS #}
-    <div class="p-2 col-span-1 border-indigo-600 border border-dotted text-indigo-600 shadow-md shadow-indigo-600"> 
-      {%- set prodsupportcredits = collections.projects | getProjectByRolePerson(person.key, "production support") %}
+    <div class="p-4 col-span-1 border-indigo-600 border border-dotted text-indigo-600"> 
+          <div class="grid columns-1 gap-4">
+            <h2>Credits</h2>
+            {############### PRODUCER CREDITS  ###################}
+            {%- set producercredits = collections.projects | getProjectByRolePerson(person.key, "producer") %}
+            {%- if producercredits.length > 0 %}  
+            <div class="credit-collapse">
+              <input type="radio" name="my-accordion-2" /> 
+              <div class="collapse-title text-xl font-medium">
+                <h3>Producer</h3>
+              </div>
+              <div class="collapse-content"> 
+                  <ul>
+                  {% for project in producercredits %}
+                    <li><a href="{{project.url}}">{{project.data.title}}</a></li>
+                  {% endfor %}
+                  </ul>  
+              </div>
+            </div>
+            {%- endif %}  
+            {############### PRODUCER CREDITS END  ###################}
 
-      {%- if prodsupportcredits.length > 0  %}
-      <p>PRODUCTION SUPPORT:</p>
-      <ul>
-      {% for project in prodsupportcredits %}
-        <li><a href="{{project.url}}">{{project.data.title}}</a></li>
-      {% endfor %}
-      </ul>
-      {%- endif %}
+            {############### PROD SUPPORT CREDITS  ###################}
+            {%- set prodsupportcredits = collections.projects | getProjectByRolePerson(person.key, "production support") %}
+            {%- if prodsupportcredits.length > 0  %}
+              <div class="credit-collapse">
+                <input type="radio" name="my-accordion-2" /> 
+                <div class="collapse-title text-xl font-medium">
+                  <h3>Production Support</h3>
+                </div>
+                <div class="collapse-content"> 
+                  <ul>
+                    {% for project in prodsupportcredits %}
+                      <li><a href="{{project.url}}">{{project.data.title}}</a></li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              </div>
+            {%- endif %}  
+            {############### END PROD SUPPORT CREDITS  ###################}
 
+            {############### PARTICIPATING ARTIST CREDITS  ###################}
+            {%- set artistcredits = collections.projects | getProjectByRolePerson(person.key, "producer") %}
+            {%- if artistcredits.length > 0 %}
+              <div class="credit-collapse">
+                <input type="radio" name="my-accordion-2" /> 
+                <div class="collapse-title text-xl font-medium">
+                  <h3>Participating Artist</h3>
+                </div>
 
-      {%- set artistcredits = collections.projects | getProjectByRolePerson(person.key, "participating artist") %}
-      {%- if artistcredits.length > 0  %}
-      <p>PARTICIPATING ARTIST:</p>
-      <ul>
-      {% for project in artistcredits %}
-        <li><a href="{{project.url}}">{{project.data.title}}</a></li>
-      {% endfor %}
-      </ul>
-      {%- endif %}
+                <div class="collapse-content"> 
+                  <ul>
+                  {% for project in artistcredits %}
+                    <li><a href="{{project.url}}">{{project.data.title}}</a></li>
+                  {% endfor %}
+                  </ul>
+                </div>
+              </div>
+            {%- endif %}  
+            {############### PARTICIPATING ARTIST CREDITS END ###################}
 
-      {%- set eventsupportcredits = collections.projects | getProjectByRolePerson(person.key, "event support") %}
-      {%- if eventsupportcredits.length > 0  %}
-      <p>EVENT SUPPORT:</p>
-      <ul>
-      {% for project in eventsupportcredits %}
-        <li><a href="{{project.url}}">{{project.data.title}}</a></li>
-      {% endfor %}
-      </ul>
-      {%- endif %} </div>
+            {############### EVENT SUPPORT ARTIST CREDITS  ###################}
+            {%- set eventsupportcredits = collections.projects | getProjectByRolePerson(person.key, "producer") %}
+            {%- if eventsupportcredits.length > 0 %}
+              <div class="credit-collapse">
+                <input type="radio" name="my-accordion-2" /> 
+                <div class="collapse-title text-xl font-medium">
+                  <h3>Event Support</h3>
+                </div>
+
+                <div class="collapse-content"> 
+                  <ul>
+                  {% for project in eventsupportcredits %}
+                    <li><a href="{{project.url}}">{{project.data.title}}</a></li>
+                  {% endfor %}
+                  </ul>
+                </div>
+              </div>
+            {%- endif %}  
+            {############### EVENT SUPPORT ARTIST CREDITS END ###################}
+
+        
     </div>
   </div>
 </div>
  
-  {#<div class="max-w-96 grid columns-1 gap-4">
-  <div class="collapse collapse-arrow border-4 border-dotted border-indigo-600">
-  <input type="radio" name="my-accordion-2" checked="checked" /> 
-  <div class="collapse-title text-xl font-medium">
-  {% if person.photo %} 
-  {% set imgurl = "../../public/assets/img/" + person.photo %}
-  {% image imgurl, "" %}
-  {% endif %}
-  <h2 class="font-Test2 text-3xl">{{ person.name }}</h2>
-  </div>
-  <div class="collapse-content"> 
-  <p class="font-main">{{person.bio}}</p>
-  </div>
-  </div>
-  <div class="collapse collapse-arrow border-4 border-dotted border-indigo-600 ">
-  <input type="radio" name="my-accordion-2" /> 
-  <div class="collapse-title text-xl font-medium">
-  <h1 class="font-Test2 text-3xl">Contacts</h1></div>
-  <div class="collapse-content"> 
-  <p class="font-main">
-    Website: <a href="{{person.website}}" target="_new">{{person.website}}</a><br/>
-    Instagram: <a href="https://instagram.com/{{person.instagram}}" target="_new">@{{person.instagram}}</a>
-  </p>
-  </div>
-  </div>
-  <div class="collapse collapse-arrow border-4 border-dotted border-indigo-600 ">
-  <input type="radio" name="my-accordion-2" /> 
-  <div class="collapse-title text-xl font-medium">
-  <h1 class="font-Test2 text-3xl">Credits</h1></div>
-  <div class="collapse-content"> 
-  <p class="font-main">   
-  </p>
-  </div>
-  <div class="collapse collapse-arrow border-4 border-dotted border-indigo-600 ">
-  <input type="radio" name="my-accordion-2" /> 
-  <div class="collapse-title text-xl font-medium">
-  {%- set producercredits = collections.projects | getProjectByRolePerson(person.key, "producer") %}
-  {%- if producercredits.length > 0 %}
-  <p class="font-Test2 text-2xl">PRODUCER:</p>
-  </div>
-  <div class="collapse-content"> 
-  {% for project in producercredits %}
-    <ul>
-  <li><a href="{{project.url}}">{{project.data.title}}</a></li>
-    {% endfor %}
-    </ul>
-    {%- endif %}  
-  </div>
-  <div class="collapse collapse-arrow border-4 border-dotted border-indigo-600 ">
-  <input type="radio" name="my-accordion-2" /> 
-  <div class="collapse-title text-xl font-medium">
-  {%- set prodsupportcredits = collections.projects | getProjectByRolePerson(person.key, "production support") %}
-  {%- if prodsupportcredits.length > 0  %}
-  <p class="font-Test2 text-2xl">PRODUCTION SUPPORT:</p>
-  </div>
-  <div class="collapse-content"> 
-  {% for project in prodsupportcredits %}
-    <ul>
-  <li><a href="{{project.url}}">{{project.data.title}}</a></li>
-    {% endfor %}
-    </ul>
-    {%- endif %}  
-  </div>
-  <div class="collapse collapse-arrow border-4 border-dotted border-indigo-600 ">
-  <input type="radio" name="my-accordion-2" /> 
-  <div class="collapse-title text-xl font-medium">
-  {%- set artistcredits = collections.projects | getProjectByRolePerson(person.key, "producer") %}
-  {%- if artistcredits.length > 0 %}
-  <p class="font-Test2 text-2xl">PARTICIPATING ARTIST:</p>
-  </div>
-  <div class="collapse-content"> 
-  {% for project in artistcredits %}
-    <ul>
-  <li><a href="{{project.url}}">{{project.data.title}}</a></li>
-    {% endfor %}
-    </ul>
-    {%- endif %}  
-  </div>
-  <div class="collapse collapse-arrow border-4 border-dotted border-indigo-600 ">
-  <input type="radio" name="my-accordion-2" /> 
-  <div class="collapse-title text-xl font-medium">
-  {%- set eventsupportcredits = collections.projects | getProjectByRolePerson(person.key, "producer") %}
-  {%- if eventsupportcredits.length > 0 %}
-  <p class="font-Test2 text-2xl">PARTICIPATING ARTIST:</p>
-  </div>
-  <div class="collapse-content"> 
-  {% for project in eventsupportcredits %}
-    <ul>
-  <li><a href="{{project.url}}">{{project.data.title}}</a></li>
-    {% endfor %}
-    </ul>
-    {%- endif %}  
-  </div>
-  </div>
-
+ 
 
 
 {# {%- set prodsupportcredits = collections.projects | getProjectByRolePerson(person.key, "production support") %}

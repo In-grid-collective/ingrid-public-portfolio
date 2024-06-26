@@ -1,10 +1,11 @@
 ---
 title: World Building Houdini Workshop
-description: This was a live-streamed and recorded event done during In-grid's residency with Arebyte Gallery. 
+description: Exploring the use of 3D software as a fictioning and world building tool.
 date: 2020-06-09
 icon: Houdini.png
 videos:
-  - https://www.youtube.com/embed/Kr6Qq3-yvuI?si=Dc5uw46k4a3N4Kjs
+  - url: https://www.youtube.com/embed/Kr6Qq3-yvuI?si=Dc5uw46k4a3N4Kjs
+    tagline: This tutorial was live-streamed and recorded during In-grid's residency with Arebyte Gallery. 
 tags:
   - workshop
   - alter worlds

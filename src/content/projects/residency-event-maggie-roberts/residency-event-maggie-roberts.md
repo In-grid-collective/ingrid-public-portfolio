@@ -4,8 +4,10 @@ description: This was a live-streamed and recorded event done during In-grid's r
 date: 2020-06-24
 icon: Maggie_Roberts_0rphan_Drift.jpeg
 videos:
-  - https://www.youtube.com/embed/cOSIXuWmzkY?si=C9fJkEx8EqUhyFYk
-  - https://www.youtube.com/embed/Mkflv5y-q-0?si=ETqpjGUhRbzFn9Wr
+  - url: https://www.youtube.com/embed/cOSIXuWmzkY?si=C9fJkEx8EqUhyFYk
+    tagline: Our conversation with Maggie was live-streamed and recorded during In-grid's residency with Arebyte Gallery. 
+  - url: https://www.youtube.com/embed/Mkflv5y-q-0?si=ETqpjGUhRbzFn9Wr
+    tagline: This is the recording of the live-streamed reading of In-grid's collective writings. 
 tags:
   - live performance
   - liminal touch
@@ -33,4 +35,4 @@ In-grid was collecting memories, transient thoughts and conversations from all i
 
 During the virtually connected time of the In-grid's Arebyte + Goldsmith's residency, one of the key ways In-grid formulated their ideas was through collaborative writing, forming text’s from txt’s, making passage through passages, culminating conversations into solidified forms. Writing grown from a milieu, bursting and bulging at its chapters, paragraphs breaking into two, ending’s becoming beginnings.
 
-Our collaboration with Maggie Roberts was concluded with a reading of some of In-grid's writings alongside Maggie. 
+Our collaboration with Maggie Roberts was concluded with a reading of some of In-grid's writings. 

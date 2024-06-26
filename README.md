@@ -14,6 +14,7 @@
 Homepage:
 - [ ] Improve the styling of recent activities by adapting the styling from project page
 - [ ] Styling of tagging list (Ref: https://www.future-expansion.com/#featured)
+- [X] Add tags to homepage
 - [ ] Improve the styling of marquee 
 
 Portfolio list:
@@ -49,6 +50,7 @@ Banner text:
 General:
 - [ ] Replace all assets with local versions... e.g. svgs for arrows
 - [ ] Add links to the socials in the footer
+- [ ] Update text 
 
 ---
 

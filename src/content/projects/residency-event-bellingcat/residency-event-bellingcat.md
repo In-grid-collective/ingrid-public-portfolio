@@ -1,10 +1,11 @@
 ---
 title: Bellingcat
-description: This was a live-streamed and recorded event done during In-grid's residency with Arebyte Gallery. 
+description: In-grid invited Bellingcat to share techniques for digital investigative journalism.
 date: 2020-06-17
 icon: Bellingcat.png
 videos:
-  - https://www.youtube.com/embed/n01WzNi8H6k?si=zSCe37ssiG2gD2I5
+ - url: https://www.youtube.com/embed/n01WzNi8H6k?si=zSCe37ssiG2gD2I5
+   tagline: This workshop was live-streamed and recorded during In-grid's residency with Arebyte Gallery. 
 tags:
   - workshop
   - talk
@@ -16,6 +17,6 @@ In-grid explored our third sub-theme of Shifting Chronology over two sessions wi
 
 Nick Waters, Bellingcat contributor, shared some of the techniques he uses for his investigative reporting over the course of two sessions:
 
-- Bellingcat: Locating data in time and space. June 23, 2020  
-- Bellingcat, Investigating Data. June 17, 2020 
+- June 23, 2020. Bellingcat: Locating data in time and space. 
+- June 17, 2020. Bellingcat: Investigating Data. 
 

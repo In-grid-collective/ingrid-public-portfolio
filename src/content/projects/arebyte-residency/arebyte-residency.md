@@ -3,7 +3,12 @@ title: Arebyte Residency
 date: 2019-11-01
 description: In-grid came about via a collaborative residency between arebyte Gallery, London, and Goldsmiths University, UoL. 
 icon: Ingrid.png
-draft: true
+tags:
+  - shadow subversions
+  - alter worlds
+  - liminal touch
+  - digital labour
+  - shifting chronology
 ---
 
 We've included our original statement which reflects our position and concerns during this period. Although our residency began in June 2020 we were working to develop a programme and working relationship from 2019, and therefore the influence of Covid-19, lockdown, the political conditions in our home nations and the US, are woven through our work. 

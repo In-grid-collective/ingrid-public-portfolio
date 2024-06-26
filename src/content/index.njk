@@ -19,6 +19,7 @@ numberOfLatestProjectsToShow: 4
 </section>
 {# <p>Any custom bits only for the home page can be added... </p> #}
 
+<div>
 
 {% set projectsCount = collections.projects | length %}
 {% set latestProjectsCount = projectsCount | min(numberOfLatestProjectsToShow) %}
@@ -43,13 +44,15 @@ numberOfLatestProjectsToShow: 4
 </ul>
 #}
 
+</div>
 
 
-<h1>Tags</h1>
 
-<ul>
-{% for tag in collections.all | getAllTags | filterTagList %}
-	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
-{% endfor %}
-</ul>
+<div class="text-center px-8 py-4 mt-4 border-indigo-600 border border-dotted">
+        
+    <h3 class="mb-4">Project Categories</h3>
+    {% for tag in collections.all | getAllTags | filterTagList %}
+        {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+        <a href="{{ tagUrl }}" class="">{{ tag }}</a>{%- if not loop.last %} &nbsp; |  &nbsp; {% endif %}
+    {% endfor %}
+</div>

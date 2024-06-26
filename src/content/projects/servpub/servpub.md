@@ -6,6 +6,7 @@ icon: Servpub.png
 tags: 
     - servpub
     - infrastructure
+    - counter cloud
 credits: 
   - id: bsmith
     role: event support

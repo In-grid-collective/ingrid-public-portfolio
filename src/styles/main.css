@@ -58,6 +58,19 @@ img {
 		@apply underline;
 	}
 
+	.credit-collapse{
+		@apply collapse;
+		@apply rounded-none;
+		@apply collapse-arrow;
+		@apply border;
+		@apply border-dotted;
+		@apply border-indigo-600;
+		@apply shadow-inner;
+		@apply shadow-indigo-600;
+	}
+	.credit-collapse a{
+		@apply underline;
+	}
 
 }
   
@@ -183,7 +196,7 @@ a[href][aria-current="page"] {
 	width: 90%; /* adjust this and the padding-top to change how big it is*/
 	height: 0;
 	padding-top: 51%; /* padding top is in reltation to the width of parent, it preserves aspect ratio*/
-	margin: 5vw auto;  /*this would center your video in the section container*/
+	margin: 3vw auto;  /*this would center your video in the section container*/
 }
 .video-container iframe{
 	position: absolute;

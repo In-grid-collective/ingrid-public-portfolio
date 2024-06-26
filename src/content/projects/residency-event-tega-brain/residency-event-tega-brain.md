@@ -1,10 +1,11 @@
 ---
 title: Tega Brain 
-description: Tega joined In-grid for a conversation about the artistic practice of Eccentric Engineering. This was a live-streamed and recorded event done during In-grid's residency with Arebyte Gallery. 
+description: Tega joined In-grid for a conversation about the artistic practice of Eccentric Engineering. 
 date: 2020-06-10
 icon: Tega_brain.png
 videos:
-  - https://www.youtube.com/embed/-Uvxb465coU?si=T5QPdgiZXJrrmXox
+  - url: https://www.youtube.com/embed/-Uvxb465coU?si=T5QPdgiZXJrrmXox
+    tagline: This was a live-streamed and recorded event done during In-grid's residency with Arebyte Gallery. 
 tags:
   - talk
   - shadow subversions

@@ -1,10 +1,11 @@
 ---
 title: Keiken
-description: Keiken joined In-grid for a conversation about their world-building practices. This was a live-streamed and recorded event done during In-grid's residency with Arebyte Gallery. 
+description: Keiken joined In-grid for a conversation about their world-building practices. 
 date: 2020-06-03
 icon: Keiken.jpeg
 videos:
-  - https://www.youtube.com/embed/VIZd_EJyUfU?si=ETo3dbecsywh4Fzi
+ - url: https://www.youtube.com/embed/VIZd_EJyUfU?si=ETo3dbecsywh4Fzi
+   tagline: This was a live-streamed and recorded event done during In-grid's residency with Arebyte Gallery. 
 tags:
   - talk
   - alter worlds

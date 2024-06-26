@@ -1,10 +1,11 @@
 ---
 title: Chat Bot with Rivescript
-description: This was a live-streamed and recorded event done during In-grid's residency with Arebyte Gallery. 
+description: In-grid was originally formulated as a virtual assistant as we set out to question hidden digital labour. Our In-grid chat bot would respond to visitors by selecting an option from hand-crafted responses that were mostly unhelpful. 
 date: 2020-06-15
 icon: Chatbot_riverscript.png
 videos:
-  - https://www.youtube.com/embed/IhM0rmFUWGs?si=_kMCXQCkThi3QmMR
+ - url: https://www.youtube.com/embed/IhM0rmFUWGs?si=_kMCXQCkThi3QmMR
+   tagline: This tutorial was live-streamed and recorded during In-grid's residency with Arebyte Gallery. 
 tags:
   - workshop
   - digital labour

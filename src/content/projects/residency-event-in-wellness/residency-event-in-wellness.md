@@ -1,10 +1,11 @@
 ---
 title: In-Wellness™
-description: Jake Charles Rees and In-grid hosted a speculative cyber-welfare™ workshop. This was a live-streamed and recorded event done during In-grid's residency with Arebyte Gallery. 
+description: Jake Charles Rees and In-grid hosted a speculative cyber-welfare™ workshop. 
 date: 2020-07-09
 icon: In-Wellness.jpeg
 videos:
-  - https://www.youtube.com/embed/nN4op4LknvA?si=GFaHhy4JMO_BvRei
+  - url: https://www.youtube.com/embed/nN4op4LknvA?si=GFaHhy4JMO_BvRei
+    tagline: The workshop was live-streamed and recorded during In-grid's residency with Arebyte Gallery. 
 tags:
   - workshop
   - digital labour
