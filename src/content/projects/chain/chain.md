@@ -8,8 +8,6 @@ imagegallery:
     - Iklectik.png
     - placeHolder.png
     - schematic.jpeg
-    - schematic.jpeg
-    - placeHolder.png
 tags:
   - live performance
   - exhibition

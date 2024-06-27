@@ -114,6 +114,16 @@ module.exports = function(eleventyConfig) {
 		return person;
 	});
 
+	eleventyConfig.addFilter("filterCreditsByRole", (credits,role) => {
+		return credits.filter(credit => {
+			if(credit.role === role){
+				return true;
+			}else{
+				return false;
+			}
+		});
+	});
+
 	eleventyConfig.addFilter("getProjectsByPerson", (projects,person) => {
 		return projects.filter(project => {
 			if(project.data.credits){

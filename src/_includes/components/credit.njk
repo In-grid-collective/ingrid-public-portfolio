@@ -1,0 +1,18 @@
+
+{%- if rolecredits.length > 0 %}  
+<div class="credit-collapse">
+	<input type="radio" name="my-accordion-2" /> 
+	<div class="collapse-title text-xl font-medium">
+	<h3>{{role}}</h3>
+	</div>
+	<div class="collapse-content"> 
+		<ul>
+		{% for person in rolecredits %}
+			{%- set p = people | getPerson(person.id) %}
+			<li class="text-indigo-600"><a class="underline" href="/people/{{ p.key }}">{{ p.name }}</a></li>
+		{% endfor %}
+		</ul>
+	</div>
+</div>
+{%- endif %}  
+

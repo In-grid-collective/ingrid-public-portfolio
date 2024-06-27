@@ -45,17 +45,66 @@ layout: base.njk
   	</div>
   
 	{%- if imagegallery %}
+
+	
+
 	<div class="p-2 col-span-3 border-indigo-600 border text-indigo-600 border-dotted">
 		{% set imagelist = imagegallery %}
 
-		<div class="columns-1 gap-2 sm:columns-2 sm:gap-8 md:columns-3 m-2 lg:columns-4 [&>div:not(:first-child)]:mt-8 ">
+		<div class="columns-1 gap-4 sm:columns-2 sm:gap-8 md:columns-3 m-2 [&>div:not(:first-child)]:mt-8 ">
 			{% for img in imagelist %}
-				<div>
+				<a href="#slide{{loop.index}}" class="relative block py-2"  onclick="imggallery.showModal()">
 				{% set imgurl = "./"+img %}
-				{% image imgurl, "alt text", "h-auto", [316, 460, 768,960], "(min-width: 30em) 50vw, 100vw" %}
-				</div>
+				{% image imgurl, "alt text", "h-auto", [316, 460], "(min-width: 30em) 50vw, 100vw" %}
+				</a>
 			{% endfor %}
 		</div>
+
+		<dialog id="imggallery" class="modal">
+		<div class="modal-box w-11/12 max-w-5xl bg-transparent shadow-none">
+			<div class="modal-action">
+			<form method="dialog">
+				<!-- if there is a button, it will close the modal -->
+				<div class="carousel w-full">
+				
+					{% for img in imagelist %}
+
+						<div id="slide{{loop.index}}" class="carousel-item relative w-full">
+							<div class="custom-slide">
+								<div class="center-fig-grow">
+									{# <img
+									src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg"
+									class="w-full" /> #}
+									{% set imgurl = "./"+img %}
+									{% image imgurl, "alt text", "h-auto", [960,1024], "(min-width: 30em) 50vw, 100vw" %}
+									<div class="absolute left-5 right-5 bottom-0 flex transform justify-between">
+									
+									{% set prev = loop.index-1 %}
+									{% set next = loop.index+1 %}
+									
+									{% if loop.index == 1 %}
+										{% set prev = imagelist.length %}
+									{% endif %}	
+									{% if loop.index == imagelist.length %}
+										{% set next = 1 %}
+									{% endif %}	
+
+									<a href="#slide{{prev}}" class="btn btn-circle">❮</a>
+									<a href="#slide{{next}}" class="btn btn-circle">❯</a>
+									</div>
+								</div>
+							</div>
+						</div>
+			
+					
+					{% endfor %}
+					
+				</div>
+				<button id="close-btn" class="btn">X</button>
+			</form>
+			</div>
+		</div>
+		</dialog>
 
 	</div>
 	{%- endif %}
@@ -76,14 +125,26 @@ layout: base.njk
 
   {%- if credits %}
 	<div class="p-4 col-span-3 border-indigo-600 border text-indigo-600 border-dotted">
+  		<div class="grid columns-1 gap-4">
+			<h3> Credits: </h3>
 
-		<h3> Credits: </h3>
-		<ul>
-		{% for person in credits %}
-			{%- set p = people | getPerson(person.id) %}
-			<li class="text-indigo-600"><a class="underline" href="/people/{{ p.key }}">{{ p.name }}</a> - <em>{{person.role}}</em></li>
-		{% endfor %}
-		</ul>
+			{%- set role = "producer" %}
+			{%- set rolecredits = credits | filterCreditsByRole(role) %}
+			{% include "credit.njk" %}
+
+			{%- set role = "production support" %}
+			{%- set rolecredits = credits | filterCreditsByRole(role) %}
+			{% include "credit.njk" %}
+
+			{%- set role = "participating artist" %}
+			{%- set rolecredits = credits | filterCreditsByRole(role) %}
+			{% include "credit.njk" %}
+
+			{%- set role = "event support" %}
+			{%- set rolecredits = credits | filterCreditsByRole(role) %}
+			{% include "credit.njk" %}
+		
+		</div>
 
 	</div>
 	{%- endif %}
