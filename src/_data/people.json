@@ -1,11 +1,67 @@
 [
 	{
-		"key":"bsmith",
-		"name":"Boo Smith",
-		"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel nulla leo. Praesent vitae ligula lacinia, viverra sapien eget, pharetra ipsum. In dignissim bibendum diam, sit amet malesuada metus rhoncus ac. Fusce posuere aliquet lectus vel gravida. Proin ipsum lectus, interdum nec tincidunt nec, cursus vitae massa. Sed pulvinar lorem viverra, hendrerit lacus vestibulum, placerat enim. Vivamus ac dui pellentesque, facilisis felis eu, mattis dui. Sed quis porta ipsum. Integer sed pellentesque nibh. Suspendisse potenti. In dui purus, congue ut mauris eu, scelerisque ullamcorper elit. Nunc sed quam dolor. Vivamus egestas eleifend urna. Donec sit amet neque sodales, porta libero vel, semper velit. Ut eleifend mattis erat at dignissim. Nam magna dui, dignissim sed tortor quis, facilisis hendrerit libero. Nam volutpat nibh tellus, sit amet faucibus elit fermentum in. Fusce tincidunt tellus nibh, eget hendrerit neque sollicitudin eu. Cras ullamcorper tellus ac mauris tempor, quis tristique augue laoreet. Phasellus ullamcorper, dolor sit amet dictum iaculis, magna justo tristique ex, non rutrum dui elit vel ex. Nam ante elit, pulvinar a ornare non, fringilla quis ex. Cras malesuada, velit vel consectetur tristique, mi nulla volutpat orci, sed rutrum magna dui in erat. Donec efficitur mi erat, quis posuere mi iaculis laoreet. Nunc tincidunt nisi nisl. Nunc diam odio, commodo ut felis mattis, fermentum blandit velit. Mauris ac luctus tellus. Phasellus erat mauris, ultrices ut fermentum posuere, euismod at tellus. Mauris cursus magna sit amet sem tempor condimentum. Fusce ut mi maximus, tempor mauris ut, maximus libero.",
+		"key":"csv",
+		"name":"Chris Speed",
+		"bio":"Chris Speed Visuals (CSV) is an audiovisual artist, DJ and academic based in London. Equally at home creating immersive installations for gallery spaces as mixing rhythms on the dancefloor, CSV has worked with a variety of art organisations from FOLD, Corsica Studios and Arebyte Gallery as well as several research collectives. He also teaches sound design and game programming at the Point Blank Music School and University of Greenwich.",
+		"website":"https://chrisspeedvisuals.com/",
+		"photo":"CSV.png",
+		"instagram":"chrisspeedvisuals"
+	},
+	{
+		"key":"hryan",
+		"name":"Hazel Ryan",
+		"bio":"I am a music producer with a background across maths, creative coding and writing. I've been a member of In-grid since 2020 and also co-run a small record label called Cherche Encore. I work as a web developer after previous positions in academia and arts administration. I'm always keen to collaborate on digital projects and producing events, especially those which build community and interrogate inequities in the ways we live.",
 		"website":"/",
-		"photo":"300.jpeg",
-		"instagram":"in_grid___"
+		"photo":"Hazel.jpg",
+		"instagram":"/"
+	},
+	{
+		"key":"vradchenko",
+		"name":"Valeria Radchenko",
+		"bio":"Valeria Radchenko is a multidisciplinary artist, music producer and facilitator. Working across sound, performance, video, ritual and creative coding, they play with the fusing of genres and mediums, weaving personal narratives with speculative fiction to dream new worlds. Exploring sound as a form of touch, they are particularly interested in the emotional potential of electronic music - how we can work with technology to express what is human. In 2019, Valeria graduated from Goldsmiths with an MA in Computational Arts. Their final master’s piece was an immersive audio-visual performance entitled XIDALIA. The piece explored a post-apocalyptic narrative through multi-screen projection and experimental electronic music, guiding audience members through a portal to a glitchy, transformed world. The performance included coded animations, 360 video, live-coded sound and live vocals. Valeria has since worked as a composer for performances and films, released music independently, and has hosted experimental art/music events with creative computing collective, in-grid. Valeria has performed across London venues such as Corsica, Avalon Cafe and The Glove That Fits. Their sonic practice is shared through public workshops, ranging from music production to collective singing, in art spaces, parties, festivals and in educational contexts. In 2023, Valeria was awarded a grant from Help Musicians to release their debut album, VISIONS, in spring 2024.",
+		"website":"https://www.valeriaradchenko.com/",
+		"photo":"Valeria.jpg",
+		"instagram":"valeriiiaaaaa"
+	},
+	{
+		"key":"jdverdier",
+		"name":"Johanna de Verdier",
+		"bio": "Johanna de Verdier is an artist working primarily across sculpture, installation and performance often along with computational, sensory components. Her work often takes shape as tools, backpacks and instruments - a practical array of vessels and tools for biological survival in post-apocalyptic scenarios. Drawing inspiration from makeshift building structures, preppers, folklore, magic and feminist technoculture Johanna's practice takes a speculative approach to the idea of the apocalypse, linking “the end” to utopian politics, ecology and collectivity.",
+		"website":"https://johannadeverdier.com/",
+		"photo":"Johanna.jpg",
+		"instagram":"johannadeverdier"
+	},
+	{
+		"key":"bdesouky",
+		"name":"Batool Desouky",
+		"bio": "Batool Desouky is a computational artist and creative technologist. Their work is cultivated through a practice-based research on the technical and historical ties between computation and Arabic indigenous occult traditions. They work in code, drawing, physical computing and writing to explore alternative and decolonial histories of the narrative of technology.",
+		"website":"https://batooldesouky.net",
+		"photo":"Batool.jpeg",
+		"instagram":"sun.seeking.goth"
+	},
+	{
+		"key":"sliao",
+		"name":"sunni Liao",
+		"bio": "Sunni (Yu Hsuan Liao) is a visual artist whose work focuses on the essential characteristics of graphics by means of mathematical precision and aesthetics. Her works are primarily audio-visual and two-dimensional in format, alongside audio visual and video art installations. They have been shown in Corsica studio, Iklectik, Peckham Digital Festival and Taipei Fine Art Museum.",
+		"website":"/",
+		"photo":"sunni.jpg",
+		"instagram":"sunni0o"
+	},
+	{
+		"key":"inakhla",
+		"name":"I. Nakhla",
+		"bio": "I. Nakhla is an artist, musician, and educator based in London. Their practice borrows from the fringes of music, computational arts, and sculpture. Through performance, workshops, field recording, and music they generate sonic worlds. Their audio work is rooted in relations between voice, place, environment, and identity (personal as well as community, intergenerational as well as present-tense). Collaboration and participation are key to their practice, with process-led making informing output or exhibition. Nakhla is often found DJ'ing their dyke+ centred tunes in clubs, or sharing work in less gallery-focused arts spaces. They are interested in working with the sonic to queer sites of production and presentation, in search of inclusive and ongoing sonic ecosystems. As well as their art practice, Nakhla works as a lecturer at Camberwell College of Art (BA Sculpture) and Northampton University (BA Fine Art). They release music under the moniker end measure.",
+		"website":"http://www.inakhla.com",
+		"photo":"I.Nakhla.jpg",
+		"instagram":"nakhla.z"
+	},
+	{
+		"key":"mbenson",
+		"name":"Meg Benson",
+		"bio": "Meg Benson is a practising artist and software developer interested in the digital / earthly intersect, excited by mechanical sculpture and digital tools that reinterpret our environments.",
+		"website":"http://meganbenson.me",
+		"photo":"Meg.jpg",
+		"instagram":"megbenson"
 	},
 	{
 		"key":"cblerg",
@@ -15,4 +71,5 @@
 		"photo":"300.jpeg",
 		"instagram":"in_grid___"
 	}
+
 ]

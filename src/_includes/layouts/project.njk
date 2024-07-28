@@ -2,11 +2,12 @@
 layout: base.njk
 ---
 
+
 {# Is this box of boxes a bit too busy? #}
 {# <div class="max-w-screen-xl mx-auto mt-16 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-8 border-dotted border-indigo-600 border shadow-lg shadow-indigo-600"> #}
-<div class="mx-auto mt-16 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-8">
+<div class="md:max-w-7xl mx-auto mt-8 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-8">
 	{# TITLE #}
-	<div class="p-2 col-span-3 border-indigo-600 border text-indigo-600 border-dotted shadow-lg shadow-indigo-600">	
+	<div class="rounded-md p-2 col-span-3 border-indigo-600 border text-indigo-600 border-dotted shadow-lg shadow-indigo-600">	
 		<h1 class="flex items-center justify-center">
 			{{ title }}
 		</h1>
@@ -14,33 +15,33 @@ layout: base.njk
 
   	<div class="col-span-3 md:col-span-1 lg:col-span-2 grid grid-cols-1 md:grid-cols-2 auto-rows-min">	
 		{# DATE #}
-		<div class="p-4 mb-4 col-span-1 border-indigo-600 border text-indigo-600 border-dotted">		
+		<div class="rounded-md p-2 mb-4 col-span-1 border-indigo-600 border text-indigo-600 border-dotted">		
 			<p class=" italic font-main">
 				<time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
 			</p> 
 		</div>
 		{# DESCRIPTION #}
-		<p class="p-4 project-description mb-4 col-span-1 md:col-span-2 font-main border-indigo-600 border text-indigo-600 border-dotted shadow-lg shadow-indigo-600 ">
+		<p class="rounded-md p-2 project-description mb-4 col-span-1 md:col-span-2 font-main border-indigo-600 border text-indigo-600 border-dotted shadow-lg shadow-indigo-600 ">
 			{{description}}		
 		</p>
 		{# TAGS #}
-		<div class="p-4 col-span-1 md:col-span-2 border-indigo-600 border text-indigo-600 border-dotted ">		
-			<ul class=" relative project-metadata font-main">
+		<div class=" col-span-1 md:col-span-2 text-indigo-600 ">		
+			<ul class="relative project-metadata font-main ">
 			{%- for tag in tags | filterTagList %}
 			{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-			<a href="{{ tagUrl }}" class="project-tag">{{ tag }}</a>{%- if not loop.last %} &nbsp; | &nbsp; {% endif %}
+			<a href="{{ tagUrl }}" class="project-tag rounded-md hover:text-white hover:bg-indigo-600 border-indigo-600 border text-indigo-600 border-dotted badge badge-outline">{{ tag }}</a>{%- if not loop.last %}  {% endif %}
 			{%- endfor %}
 			</ul>
 		</div>
 	</div>
 	{# IMAGE ICON #}
-	<div class="flex justify-center items-center p-2 col-span-3 md:col-span-1  border-indigo-600 border text-indigo-600 border-dotted">	
+	<div class="rounded-md flex justify-center items-center p-2 col-span-3 md:col-span-1  border-indigo-600 border text-indigo-600 border-dotted ">	
 		{% if icon %}
 			{% set imgurl = "./"+icon %}
 			{% image imgurl, "" %}
 		{% endif %}
 	</div>
-	<div class="main-content p-4 col-span-3 border-indigo-600 border text-indigo-600 border-dotted">
+	<div class="rounded-md main-content p-4 col-span-3 border-indigo-600 border text-indigo-600 border-dotted">
 		{{ content | safe }}
   	</div>
   
@@ -48,7 +49,7 @@ layout: base.njk
 
 	
 
-	<div class="p-2 col-span-3 border-indigo-600 border text-indigo-600 border-dotted">
+	<div class="rounded-md p-2 col-span-3 border-indigo-600 border text-indigo-600 border-dotted">
 		{% set imagelist = imagegallery %}
 
 		<div class="columns-1 gap-4 sm:columns-2 sm:gap-8 md:columns-3 m-2 [&>div:not(:first-child)]:mt-8 ">
@@ -61,7 +62,7 @@ layout: base.njk
 		</div>
 
 		<dialog id="imggallery" class="modal">
-		<div class="modal-box w-11/12 max-w-5xl bg-transparent shadow-none">
+		<div class="rounded-mdmodal-box w-11/12 max-w-5xl bg-transparent shadow-none">
 			<div class="modal-action">
 			<form method="dialog">
 				<!-- if there is a button, it will close the modal -->
@@ -112,7 +113,7 @@ layout: base.njk
 
   {%- if videos %}
 	{% for video in videos %}
-		<div class="col-span-3 lg:col-span-2 responsive-video shadow-inner shadow-indigo-600 border border-dotted border-indigo-600">
+		<div class="rounded-md col-span-3 lg:col-span-2 responsive-video shadow-inner shadow-indigo-600 border border-dotted border-indigo-600">
 			<div class="video-container">
 				<iframe title="vimeo-player" src="{{video.url}}" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
 			</div>
@@ -124,8 +125,8 @@ layout: base.njk
   {%- endif %}
 
   {%- if credits %}
-	<div class="p-4 col-span-3 border-indigo-600 border text-indigo-600 border-dotted">
-  		<div class="grid columns-1 gap-4">
+	<div class="rounded-md p-4 col-span-3 border-indigo-600 border text-indigo-600 border-dotted">
+  		<div class="grid columns-1 ">
 			<h3> Credits: </h3>
 
 			{%- set role = "producer" %}
