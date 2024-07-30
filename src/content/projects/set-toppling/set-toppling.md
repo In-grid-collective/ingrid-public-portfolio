@@ -6,11 +6,6 @@ icon: Set.png
 tags:
   - live performance
   - party
-credits: 
-  - id: bsmith
-    role: production support
-  - id: cblerg
-    role: participating artist
 ---
 
 

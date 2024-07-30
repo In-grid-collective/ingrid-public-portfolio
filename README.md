@@ -22,25 +22,30 @@ Portfolio list:
 
 Portfolio:
 - [X] Make image size bigger and stack date, tags, and short description on the left column
-- [ ] Image gallery can remain in masonry layout
-- [ ] Make Image full screen after clicking
+- [X] Image gallery can remain in masonry layout
+- [X] Make Image full screen after clicking
 - [X] Have only one row for mobile layout (https://tailwindcss.com/docs/responsive-design)
-- [ ] Make font and padding in % unit for responsive design (https://tailwindcss.com/docs/font-size)
-- [ ] Arebyte Residency page, copy and structure ideas from here https://pad.riseup.net/p/9G1AqW1LBCHdw1JV8AYm-keep 
+- [ ] Make font and padding in % unit for responsive design (https://tailwindcss.com/docs/font-size) (Becky)
+- [ ] Arebyte Residency page, copy and structure ideas from here https://pad.riseup.net/p/9G1AqW1LBCHdw1JV8AYm-keep (Becky)
+- If you can't find person in people list, add them but have no link to their bio. (Becky)
 
 About:
 - [X] Stick to Johanna’s design 
 - [X] Enter About page draft of copy / text from here: https://pad.riseup.net/p/9G1AqW1LBCHdw1JV8AYm-keep 
-- [ ] Add links to tags in the "what we do section"
+- [ ] Add links to tags in the "what we do section" 
 
 People:
 - [X] Make Bio grid on top of credits grid
 - [X] Rearrange the information grids and how it stacks in different devices
 - [ ] Use expandable table for credits (https://daisyui.com/components/accordion/)
 - [X] Combine Bio and other info 
+- [ ] Add credits tags for people (Katie + Becky)
+- [ ] Change spacing of text, add "Bio" title, add spacing between "Credits" and the drop-downs (Sunni)
+- [ ] Update socials template (no social etc) (Becky)
+- [ ] People grid responsive fix make sure they are all the same height (becky)
 
 Tagged page:
-- [ ] Styling of “Tagged” title
+- [X] Styling of “Tagged” title
 - [ ] Styling of the tagged project list
 
 Banner text:
@@ -51,6 +56,8 @@ General:
 - [ ] Replace all assets with local versions... e.g. svgs for arrows
 - [ ] Add links to the socials in the footer
 - [ ] Update text 
+- [ ] Change font names / mess around with body font (Sunni)
+- [ ] Update tag styling (Sunni)
 
 ---
 
