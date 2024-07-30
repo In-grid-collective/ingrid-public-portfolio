@@ -64,9 +64,17 @@
 		"instagram":"megbenson"
 	},
 	{
-		"key":"cblerg",
-		"name":"Cat Blerg",
-		"bio":"Cat did something or another.",
+		"key":"ktindle",
+		"name":"Katie Tindle",
+		"bio":"Kat did something or another.",
+		"website":"/",
+		"photo":"300.jpeg",
+		"instagram":"in_grid___"
+	},
+	{
+		"key":"raston",
+		"name":"Rebecca Aston",
+		"bio":"Reb did something or another.",
 		"website":"/",
 		"photo":"300.jpeg",
 		"instagram":"in_grid___"

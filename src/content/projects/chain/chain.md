@@ -12,12 +12,29 @@ tags:
   - live performance
   - exhibition
 credits: 
-  - id: bsmith
+  - id: jdverdier
     role: participating artist
-  - id: cblerg
+  - id: mbenson
+    role: participating artist
+  - id: raston
+    role: participating artist
+  - id: ktindle
+    role: participating artist
+  - id: hryan
+    role: participating artist
+  - id: sliao
+    role: participating artist
+  - id: hryan
     role: producer
-  - id: bsmith
-    role: producer
+  - id: ktindle
+    role: production support
+  - id: raston
+    role: production support
+  - id: bdesouky
+    role: event support
+  - id: inakhla
+    role: event support
+  
 ---
 
 

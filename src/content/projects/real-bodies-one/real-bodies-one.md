@@ -8,11 +8,6 @@ tags:
   - party
   - live performance
   - exhibition
-credits: 
-  - id: bsmith
-    role: producer
-  - id: cblerg
-    role: participating artist
 ---
 
 
