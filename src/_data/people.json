@@ -13,9 +13,9 @@
 		"name":"Hazel Ryan",
 		"active": true,
 		"bio":"I am a music producer with a background across maths, creative coding and writing. I've been a member of In-grid since 2020 and also co-run a small record label called Cherche Encore. I work as a web developer after previous positions in academia and arts administration. I'm always keen to collaborate on digital projects and producing events, especially those which build community and interrogate inequities in the ways we live.",
-		"website":"/",
+		"website":"",
 		"photo":"Hazel.jpg",
-		"instagram":"/"
+		"instagram":""
 	},
 	{
 		"key":"vradchenko",
@@ -49,7 +49,7 @@
 		"name":"sunni Liao",
 		"active": true,
 		"bio": "Sunni (Yu Hsuan Liao) is a visual artist whose work focuses on the essential characteristics of graphics by means of mathematical precision and aesthetics. Her works are primarily audio-visual and two-dimensional in format, alongside audio visual and video art installations. They have been shown in Corsica studio, Iklectik, Peckham Digital Festival and Taipei Fine Art Museum.",
-		"website":"/",
+		"website":"",
 		"photo":"sunni.jpg",
 		"instagram":"sunni0o"
 	},
@@ -76,7 +76,7 @@
 		"name":"Katie Tindle",
 		"active": true,
 		"bio":"Kat did something or another.",
-		"website":"/",
+		"website":"",
 		"photo":"300.jpeg",
 		"instagram":"in_grid___"
 	},

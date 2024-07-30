@@ -31,12 +31,14 @@
       <h2 class="font-Test2 text-3xl text-wrap">{{ person.name }}</h2>
     </div>
     {# SOCIALS #}
+    {% if person.website != "" or person.instagram != "" %} 
     <div class="p-4 mt-4 rounded-md border-indigo-600 border border-dotted text-indigo-600 shadow-md shadow-indigo-600 text-wrap" style="height:min-content!important;">    
       <p class="font-main text-wrap">
-        Website: <a href="{{person.website}}" target="_new">{{person.website}}</a><br/>
-        Instagram: <a href="https://instagram.com/{{person.instagram}}" target="_new">@{{person.instagram}}</a>
+        {% if person.website != "" %} Website: <a href="{{person.website}}" target="_new">{{person.website}}</a><br/> {% endif %}
+        {% if person.instagram != "" %} Instagram: <a href="https://instagram.com/{{person.instagram}}" target="_new">@{{person.instagram}}</a> {% endif %}
       </p>
     </div>
+    {% endif %}
   </div>
 
   <div class="col-span-1 md:col-span-2 grid gap-4">
