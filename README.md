@@ -27,7 +27,7 @@ Portfolio:
 - [X] Have only one row for mobile layout (https://tailwindcss.com/docs/responsive-design)
 - [ ] Make font and padding in % unit for responsive design (https://tailwindcss.com/docs/font-size) (Becky)
 - [ ] Arebyte Residency page, copy and structure ideas from here https://pad.riseup.net/p/9G1AqW1LBCHdw1JV8AYm-keep (Becky)
-- If you can't find person in people list, add them but have no link to their bio. (Becky)
+- [ ] If you can't find person in people list, add them but have no link to their bio. (Becky)
 
 About:
 - [X] Stick to Johanna’s design 
