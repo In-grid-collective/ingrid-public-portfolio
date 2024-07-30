@@ -2,44 +2,7 @@
 layout: home.njk
 numberOfLatestProjectsToShow: 4
 ---
-<div class="grid grid-cols-1 md:grid-cols-2 py-2 ">
-  <div></div>
-  <div class="rounded-md border border-dashed border-indigo-600 ">
-<div class=" mx-auto bg-white rounded-xl shadow-md overflow-hidden ">
-  <div class="md:flex">
-    <div class="md:shrink-0 ">
-      <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://cc.vvvvvvaria.org/wiki/images/4/4c/Content-form-newspapers-stack-1.jpeg" alt="">
-    </div>
-    <div class="p-8">
-      <div class="uppercase tracking-wide text-lg text-indigo-500 font-semibold">UPCOMING</div>
-      <a href="" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Transmediale</a>
-      <p class="mt-2 text-slate-500">Rooted by the interest of researchers in how technological and social forms come together, the presentations, as well as the resulting publication, invite the audience to reflect on the use and value of affective infrastructures, autonomous networks, and shared organisational processes. </p>
-    </div>
-  </div>
-</div>
-  </div>
-  <div class="rounded-md border border-dashed border-indigo-600">WORKSHOPS</div>
-  <div class="rounded-md border border-dashed border-indigo-600">
-    <div class="rounded-md border border-dashed border-indigo-600 ">
-<div class=" bg-white rounded-xl shadow-md overflow-hidden">
-  <div class="md:flex">
-    <div class="md:shrink-0 ">
-      <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://data.transmediale.de/assets/_1600xAUTO_crop_center-center_none/tm24_ResearchWorkshop2024_HKW_AngieStardustFoyer_2485_CCBYNCSA_LauraFiorio_005.jpg" alt="">
-    </div>
-    <div class="p-8">
-      <div class="uppercase tracking-wide text-lg text-indigo-500 font-semibold">UPCOMING</div>
-      <a href="" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Transmediale</a>
-      <p class="mt-2 text-slate-500">Rooted by the interest of researchers in how technological and social forms come together, the presentations, as well as the resulting publication, invite the audience to reflect on the use and value of affective infrastructures, autonomous networks, and shared organisational processes. </p>
-    </div>
-  </div>
-</div>
-  </div>
-</div>
-  <div class="col-span-2 rounded-md border border-dashed border-indigo-600">RESOURCE</div>
-  <div class="rounded-md border border-dashed border-indigo-600">🟪</div>
-  <div class="rounded-md border border-dashed border-indigo-600">🟣</div>
-  <div class="col-span-2 rounded-md border border-dashed border-indigo-600">STATEMENT</div>
-</div>
+
 {# 
 <div class="collapse collapse-plus border border-dashed border-indigo-600">
   <input type="radio" name="my-accordion-3" checked="checked" />
@@ -85,8 +48,8 @@ numberOfLatestProjectsToShow: 4
 
 {# <p>Any custom bits only for the home page can be added... </p> #}
 
-<div class="rounded-md border border-dashed border-indigo-600">
-PROJECTS
+<div>
+
 {% set projectsCount = collections.projects | length %}
 {% set latestProjectsCount = projectsCount | min(numberOfLatestProjectsToShow) %}
 {# <h1>Recent Projects</h1> #}
