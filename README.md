@@ -27,7 +27,7 @@ Portfolio:
 - [X] Have only one row for mobile layout (https://tailwindcss.com/docs/responsive-design)
 - [ ] Make font and padding in % unit for responsive design (https://tailwindcss.com/docs/font-size) (Becky)
 - [ ] Arebyte Residency page, copy and structure ideas from here https://pad.riseup.net/p/9G1AqW1LBCHdw1JV8AYm-keep (Becky)
-- [ ] If you can't find person in people list, add them but have no link to their bio. (Becky)
+- [X] If you can't find person in people list, add them but have no link to their bio. (Becky)
 
 About:
 - [X] Stick to Johanna’s design 
@@ -41,8 +41,9 @@ People:
 - [X] Combine Bio and other info 
 - [ ] Add credits tags for people (Katie + Becky)
 - [ ] Change spacing of text, add "Bio" title, add spacing between "Credits" and the drop-downs (Sunni)
-- [ ] Update socials template (no social etc) (Becky)
+- [X] Update socials template (no social etc) (Becky)
 - [ ] People grid responsive fix make sure they are all the same height (becky)
+- [X] Add inactive members logic
 
 Tagged page:
 - [X] Styling of “Tagged” title
