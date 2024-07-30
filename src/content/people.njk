@@ -12,3 +12,21 @@ eleventyNavigation:
 <div class="mt-16">
 {% include "person-icon.njk" %}
 </div>
+
+
+<div class="text-center px-8 py-4 mt-8 border-indigo-600 border border-dotted">
+        
+    <h3 class="mb-4">Inactive Members</h3>
+    {% for p in inactive %}
+        {%- if p.link != "" -%}
+        <a href="{{ p.link }}" class="">{{ p.name }}</a>{%- if not loop.last %} &nbsp; |  &nbsp; {% endif %}
+
+        {% else %}
+
+        <span> {{ p.name }} </span> {%- if not loop.last %} &nbsp; |  &nbsp; {% endif %}
+
+        {%- endif %}  
+    {% endfor %}
+
+        <p class="mt-4">* Member of the original <a href="/projects/arebyte-residency/"> arebyte + goldsmiths residency</a></p>
+</div>

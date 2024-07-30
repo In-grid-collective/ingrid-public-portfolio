@@ -80,7 +80,7 @@ eleventyComputed:
             {############### END PROD SUPPORT CREDITS  ###################}
 
             {############### PARTICIPATING ARTIST CREDITS  ###################}
-            {%- set artistcredits = collections.projects | getProjectByRolePerson(person.key, "producer") %}
+            {%- set artistcredits = collections.projects | getProjectByRolePerson(person.key, "participating artist") %}
             {%- if artistcredits.length > 0 %}
               <div class="credit-collapse rounded-md">
                 <input type="radio" name="my-accordion-2" /> 
@@ -100,7 +100,7 @@ eleventyComputed:
             {############### PARTICIPATING ARTIST CREDITS END ###################}
 
             {############### EVENT SUPPORT ARTIST CREDITS  ###################}
-            {%- set eventsupportcredits = collections.projects | getProjectByRolePerson(person.key, "producer") %}
+            {%- set eventsupportcredits = collections.projects | getProjectByRolePerson(person.key, "event support") %}
             {%- if eventsupportcredits.length > 0 %}
               <div class="credit-collapse rounded-md">
                 <input type="radio" name="my-accordion-2" /> 
