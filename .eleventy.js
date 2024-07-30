@@ -114,6 +114,14 @@ module.exports = function(eleventyConfig) {
 		return person;
 	});
 
+	eleventyConfig.addFilter("getActive", (people) => {;
+		return people.filter(p => p.active == true);
+	});
+
+	eleventyConfig.addFilter("getInactive", (people) => {;
+		return people.filter(p => p.active == false);
+	});
+
 	eleventyConfig.addFilter("filterCreditsByRole", (credits,role) => {
 		return credits.filter(credit => {
 			if(credit.role === role){

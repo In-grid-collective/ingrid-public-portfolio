@@ -1,13 +1,21 @@
+---js
+{
+  layout: "home.njk",
+  pagination: {
+    data: "people",
+    size: 1,
+    alias: "person",
+    before: function(data) { return data.filter(p => p.active == true )}
+  },
+  permalink: "/people/{{person.key}}/",
+  eleventyComputed: {
+    title: "{{person.name}}"
+  }
+
+}
 ---
-layout: home.njk
-pagination:
-   data: people
-   size: 1
-   alias: person
-permalink: "/people/{{person.key}}/"
-eleventyComputed:
-   title: "{{person.name}}"
----
+
+
 <div class="mt-2 grid grid-cols-1 md:grid-cols-3 gap-4 p-1">
   
   <div class="col-span-1 ">

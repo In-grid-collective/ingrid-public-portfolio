@@ -8,7 +8,7 @@ eleventyNavigation:
   order: 3
 ---
 
-{% set peoplelist = people %}
+{% set peoplelist = people | getActive %}
 <div class="mt-16">
 {% include "person-icon.njk" %}
 </div>
@@ -17,16 +17,18 @@ eleventyNavigation:
 <div class="text-center px-8 py-4 mt-8 border-indigo-600 border border-dotted">
         
     <h3 class="mb-4">Inactive Members</h3>
-    {% for p in inactive %}
-        {%- if p.link != "" -%}
-        <a href="{{ p.link }}" class="">{{ p.name }}</a>{%- if not loop.last %} &nbsp; |  &nbsp; {% endif %}
+    {% for p in people | getInactive %}
+
+
+        {%- if p.website != "" -%}
+        <a href="{{ p.website }}" class="">{{ p.name }}  {%- if p.arebyteresident -%} * {%- endif %} </a>{%- if not loop.last %} &nbsp; |  &nbsp; {% endif %}
 
         {% else %}
 
-        <span> {{ p.name }} </span> {%- if not loop.last %} &nbsp; |  &nbsp; {% endif %}
+        <span> {{ p.name }} {%- if p.arebyteresident -%} * {%- endif %}  </span> {%- if not loop.last %} &nbsp; |  &nbsp; {% endif %}
 
         {%- endif %}  
     {% endfor %}
 
-        <p class="mt-4">* Member of the original <a href="/projects/arebyte-residency/"> arebyte + goldsmiths residency</a></p>
+    <p class="mt-4">* Member of the original <a href="/projects/arebyte-residency/"> arebyte + goldsmiths residency</a></p>
 </div>

@@ -8,8 +8,25 @@
 	<div class="collapse-content"> 
 		<ul>
 		{% for person in rolecredits %}
+
 			{%- set p = people | getPerson(person.id) %}
-			<li class="text-indigo-600"><a class="underline" href="/people/{{ p.key }}">{{ p.name }}</a></li>
+
+			{%- if p.active -%}
+
+				<li class="text-indigo-600"><a class="underline" href="/people/{{ p.key }}">{{ p.name }}</a></li>
+
+			{% else %}
+				
+				{%- if p.website != "" -%}
+					<li class="text-indigo-600"><a href="{{ p.website }}" class="">{{ p.name }}</a> </li>
+
+				{% else %}
+
+					<li class="text-indigo-600"> {{ p.name }} </li>
+				{%- endif %}  
+
+			{%- endif %}  
+
 		{% endfor %}
 		</ul>
 	</div>
