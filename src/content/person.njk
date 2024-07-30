@@ -8,23 +8,23 @@ permalink: "/people/{{person.key}}/"
 eleventyComputed:
    title: "{{person.name}}"
 ---
-<div class="mt-16 grid grid-cols-1 md:grid-cols-3  gap-4 p-4">
+<div class="mt-2 grid grid-cols-1 md:grid-cols-3 gap-4 p-1">
   
-  <div class="col-span-1">
+  <div class="col-span-1 ">
   {# PHOTO #}
-    <div class="p-2 border-indigo-600 border border-dotted text-indigo-600 shadow-inner shadow-indigo-600" style="height:min-content!important;"> 
+    <div class="p-2 rounded-md border-indigo-600 border border-dotted text-indigo-600 shadow-inner shadow-indigo-600" style="height:min-content!important;"> 
       {% if person.photo %} 
       {% set imgurl = "../../public/assets/img/" + person.photo %}
       {% image imgurl, "" %}
       {% endif %}
     </div>
     {# NAME #}
-    <div class="p-4 mt-4 border-indigo-600 border border-dotted text-indigo-600 shadow-md shadow-indigo-600" style="height:min-content!important;">  
-      <h2 class="font-Test2 text-3xl">{{ person.name }}</h2>
+    <div class="p-4 mt-4 rounded-md border-indigo-600 border border-dotted text-indigo-600 shadow-md shadow-indigo-600" style="height:min-content!important;">  
+      <h2 class="font-Test2 text-3xl text-wrap">{{ person.name }}</h2>
     </div>
     {# SOCIALS #}
-    <div class="p-4 mt-4  border-indigo-600 border border-dotted text-indigo-600 shadow-md shadow-indigo-600" style="height:min-content!important;">    
-      <p class="font-main">
+    <div class="p-4 mt-4 rounded-md border-indigo-600 border border-dotted text-indigo-600 shadow-md shadow-indigo-600 text-wrap" style="height:min-content!important;">    
+      <p class="font-main text-wrap">
         Website: <a href="{{person.website}}" target="_new">{{person.website}}</a><br/>
         Instagram: <a href="https://instagram.com/{{person.instagram}}" target="_new">@{{person.instagram}}</a>
       </p>
@@ -33,18 +33,18 @@ eleventyComputed:
 
   <div class="col-span-1 md:col-span-2 grid gap-4">
     {# BIO #}
-    <div class="p-4 row-span-1 border-indigo-600 border border-dotted text-indigo-600 shadow-md shadow-indigo-600">    
+    <div class="p-4 row-span-1 rounded-md border-indigo-600 border border-dotted text-indigo-600 shadow-md shadow-indigo-600">    
       <p class="font-main">{{person.bio}}</p>
     </div>
     
     {# CREDITS #}
-    <div class="p-4 col-span-1 border-indigo-600 border border-dotted text-indigo-600"> 
-          <div class="grid columns-1 gap-4">
+    <div class="rounded-md p-4 col-span-1 border-indigo-600 border border-dotted text-indigo-600"> 
+          <div class="grid columns-1 rounded-md">
             <h2>Credits</h2>
             {############### PRODUCER CREDITS  ###################}
             {%- set producercredits = collections.projects | getProjectByRolePerson(person.key, "producer") %}
             {%- if producercredits.length > 0 %}  
-            <div class="credit-collapse">
+            <div class="credit-collapse rounded-md">
               <input type="radio" name="my-accordion-2" /> 
               <div class="collapse-title text-xl font-medium">
                 <h3>Producer</h3>
@@ -63,7 +63,7 @@ eleventyComputed:
             {############### PROD SUPPORT CREDITS  ###################}
             {%- set prodsupportcredits = collections.projects | getProjectByRolePerson(person.key, "production support") %}
             {%- if prodsupportcredits.length > 0  %}
-              <div class="credit-collapse">
+              <div class="rounded-md credit-collapse">
                 <input type="radio" name="my-accordion-2" /> 
                 <div class="collapse-title text-xl font-medium">
                   <h3>Production Support</h3>
@@ -82,7 +82,7 @@ eleventyComputed:
             {############### PARTICIPATING ARTIST CREDITS  ###################}
             {%- set artistcredits = collections.projects | getProjectByRolePerson(person.key, "producer") %}
             {%- if artistcredits.length > 0 %}
-              <div class="credit-collapse">
+              <div class="credit-collapse rounded-md">
                 <input type="radio" name="my-accordion-2" /> 
                 <div class="collapse-title text-xl font-medium">
                   <h3>Participating Artist</h3>
@@ -102,7 +102,7 @@ eleventyComputed:
             {############### EVENT SUPPORT ARTIST CREDITS  ###################}
             {%- set eventsupportcredits = collections.projects | getProjectByRolePerson(person.key, "producer") %}
             {%- if eventsupportcredits.length > 0 %}
-              <div class="credit-collapse">
+              <div class="credit-collapse rounded-md">
                 <input type="radio" name="my-accordion-2" /> 
                 <div class="collapse-title text-xl font-medium">
                   <h3>Event Support</h3>

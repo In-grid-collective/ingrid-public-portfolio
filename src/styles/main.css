@@ -267,3 +267,10 @@ a[href][aria-current="page"] {
 	height: 100%;
 	width: 100%;
 }
+.element {
+	width: auto;
+	height: auto;
+    color: rgba(79,70,229,1);
+    border-radius: 10px;
+    box-shadow: 1px -2px 22px 1px rgba(79,70,229,1) inset;
+  }
