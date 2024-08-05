@@ -54,8 +54,8 @@
             {############### PRODUCER CREDITS  ###################}
             {%- set producercredits = collections.projects | getProjectByRolePerson(person.key, "producer") %}
             {%- if producercredits.length > 0 %}  
-            <div class="credit-collapse rounded-md">
-              <input type="radio" name="my-accordion-2" /> 
+            <div class="collapse-area rounded-md">
+              <input type="checkbox" name="my-accordion-2" /> 
               <div class="collapse-title text-xl font-medium">
                 <h3>Producer</h3>
               </div>
@@ -73,8 +73,8 @@
             {############### PROD SUPPORT CREDITS  ###################}
             {%- set prodsupportcredits = collections.projects | getProjectByRolePerson(person.key, "production support") %}
             {%- if prodsupportcredits.length > 0  %}
-              <div class="rounded-md credit-collapse">
-                <input type="radio" name="my-accordion-2" /> 
+              <div class="collapse-area credit-collapse">
+                <input type="checkbox" name="my-accordion-2" /> 
                 <div class="collapse-title text-xl font-medium">
                   <h3>Production Support</h3>
                 </div>
@@ -92,8 +92,8 @@
             {############### PARTICIPATING ARTIST CREDITS  ###################}
             {%- set artistcredits = collections.projects | getProjectByRolePerson(person.key, "participating artist") %}
             {%- if artistcredits.length > 0 %}
-              <div class="credit-collapse rounded-md">
-                <input type="radio" name="my-accordion-2" /> 
+              <div class="collapse-area rounded-md">
+                <input type="checkbox" name="my-accordion-2" /> 
                 <div class="collapse-title text-xl font-medium">
                   <h3>Participating Artist</h3>
                 </div>
@@ -112,8 +112,8 @@
             {############### EVENT SUPPORT ARTIST CREDITS  ###################}
             {%- set eventsupportcredits = collections.projects | getProjectByRolePerson(person.key, "event support") %}
             {%- if eventsupportcredits.length > 0 %}
-              <div class="credit-collapse rounded-md">
-                <input type="radio" name="my-accordion-2" /> 
+              <div class="collapse-area rounded-md">
+                <input type="checkbox" name="my-accordion-2" /> 
                 <div class="collapse-title text-xl font-medium">
                   <h3>Event Support</h3>
                 </div>

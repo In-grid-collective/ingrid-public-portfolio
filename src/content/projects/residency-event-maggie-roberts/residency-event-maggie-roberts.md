@@ -1,6 +1,6 @@
 ---
 title: Maggie Roberts / 0rphan Drift 
-description: This was a live-streamed and recorded event done during In-grid's residency with Arebyte Gallery. 
+description: Maggie Roberts joined In-grid to talk about collaborative practices.
 date: 2020-06-24
 icon: Maggie_Roberts_0rphan_Drift.jpeg
 videos:

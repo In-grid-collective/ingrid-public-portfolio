@@ -1,5 +1,5 @@
 ---
-title: Tega Brain 
+title: Eccentric Engineering with Tega Brain 
 description: Tega joined In-grid for a conversation about the artistic practice of Eccentric Engineering. 
 date: 2020-06-10
 icon: Tega_brain.png
