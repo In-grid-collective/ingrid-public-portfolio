@@ -127,6 +127,11 @@
 	</url>
 	
 	<url>
+		<loc>https://example.com/ingrid-public-portfolio/tags/infrastructure/</loc>
+		<lastmod>2024-05-19</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://example.com/ingrid-public-portfolio/tags/real-bodies/</loc>
 		<lastmod>2024-05-19</lastmod>
 	</url>
@@ -162,22 +167,22 @@
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/tags/infrastructure/</loc>
-		<lastmod>2024-05-19</lastmod>
+		<loc>https://example.com/ingrid-public-portfolio/tags/</loc>
+		<lastmod>2024-06-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/ingrid-public-portfolio/projects/collective-infrastructure/</loc>
+		<lastmod>2024-07-18</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://example.com/ingrid-public-portfolio/</loc>
-		<lastmod>2024-05-19</lastmod>
+		<lastmod>2024-07-30</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/people/bsmith/</loc>
-		<lastmod>2024-05-19</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://example.com/ingrid-public-portfolio/tags/</loc>
-		<lastmod>2024-06-26</lastmod>
+		<loc>https://example.com/ingrid-public-portfolio/people/csv/</loc>
+		<lastmod>2024-07-30</lastmod>
 	</url>
 </urlset>
