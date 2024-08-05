@@ -4,9 +4,23 @@ description: Testing the boundaries between live event and installation, In-grid
 date: 2022-11-16
 icon: Iklectik.png
 imagegallery: 
-    - Chain.png
+    - In-Grid - Chain (39).jpg
+    - In-Grid - Chain (10).jpg
+    - In-Grid - Chain (21).jpg
+    - In-Grid - Chain (174).jpg
+    - In-Grid - Chain (180).jpg
+    - In-Grid - Chain (190).jpg
+    - In-Grid - Chain (19).jpg
+    - In-Grid - Chain (27).jpg
+    - In-Grid - Chain (188).jpg
+    - In-Grid - Chain (25).jpg
+    - In-Grid - Chain (261).jpg
     - Iklectik.png
-    - placeHolder.png
+    - In-Grid - Chain (267).jpg
+    - In-Grid - Chain (2).jpg
+    - In-Grid - Chain (17).jpg
+    - In-Grid - Chain (4).jpg
+    - In-Grid - Chain (100).jpg
     - schematic.jpeg
 tags:
   - live performance

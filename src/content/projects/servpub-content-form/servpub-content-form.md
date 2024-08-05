@@ -2,15 +2,21 @@
 title: Content / Form with Servpub
 description: This is a project with some images in it.
 date: 2024-01-28
-icon: Servpub.png
+icon: newspaper.jpg
 tags: 
     - servpub
     - infrastructure
     - counter cloud
+imagegallery: 
+    - panel.jpg
+    - Newspaper2.jpg
+    - newspaper.jpg
+    - pi.JPG
+    - workshop.jpg
 ---
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel nulla leo. Praesent vitae ligula lacinia, viverra sapien eget, pharetra ipsum. In dignissim bibendum diam, sit amet malesuada metus rhoncus ac. Fusce posuere aliquet lectus vel gravida. Proin ipsum lectus, interdum nec tincidunt nec, cursus vitae massa. Sed pulvinar lorem viverra, hendrerit lacus vestibulum, placerat enim. Vivamus ac dui pellentesque, facilisis felis eu, mattis dui. Sed quis porta ipsum. Integer sed pellentesque nibh.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel nulla leo. Praesent vitae ligula lacinia, viverra sapien eget, pharetra ipsum. In dignissim bibendum diam, sit amet malesuada metus rhoncus ac. Fusce posujere aliquet lectus vel gravida. Proin ipsum lectus, interdum nec tincidunt nec, cursus vitae massa. Sed pulvinar lorem viverra, hendrerit lacus vestibulum, placerat enim. Vivamus ac dui pellentesque, facilisis felis eu, mattis dui. Sed quis porta ipsum. Integer sed pellentesque nibhf.
 
 Suspendisse potenti. In dui purus, congue ut mauris eu, scelerisque ullamcorper elit. Nunc sed quam dolor. Vivamus egestas eleifend urna. Donec sit amet neque sodales, porta libero vel, semper velit. Ut eleifend mattis erat at dignissim. Nam magna dui, dignissim sed tortor quis, facilisis hendrerit libero. Nam volutpat nibh tellus, sit amet faucibus elit fermentum in. Fusce tincidunt tellus nibh, eget hendrerit neque sollicitudin eu. Cras ullamcorper tellus ac mauris tempor, quis tristique augue laoreet.
 
