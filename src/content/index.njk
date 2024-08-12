@@ -57,6 +57,6 @@ numberOfLatestProjectsToShow: 4
     <h3 class="mb-4 rounded-md">Project Categories</h3>
     {% for tag in collections.all | getAllTags | filterTagList %}
         {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-        <a href="{{ tagUrl }}" class="font-Test3 font-bold project-tag rounded-md hover:text-white hover:bg-indigo-600 border-indigo-600 border text-indigo-600 border-dotted badge badge-outline">{{ tag }}</a>{%- if not loop.last %} {% endif %}
+        <a href="{{ tagUrl }}" class="font-Test3 font-bold project-tag rounded-md hover:text-white hover:bg-indigo-600 border-indigo-600 border text-indigo-600 border-dotted badge badge-outline badge-lg">{{ tag }}</a>{%- if not loop.last %} {% endif %}
     {% endfor %}
 </div>
