@@ -1,5 +1,5 @@
 ---
-title: Keiken
+title: World Building with Keiken
 description: Keiken joined In-grid for a conversation about their world-building practices. 
 date: 2020-06-03
 icon: Keiken.jpeg

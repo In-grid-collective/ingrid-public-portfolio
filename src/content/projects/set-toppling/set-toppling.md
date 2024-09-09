@@ -6,6 +6,16 @@ icon: Set.png
 tags:
   - live performance
   - party
+imagegallery: 
+    - chris.png
+    - decks.png
+    - IMG_1381.jpg
+    - visuals2.png
+    - in-grid.png
+    - decks2.png
+    - visuals.png
+    - yasminKatie.png
+    - LEDShirt.png
 ---
 
 

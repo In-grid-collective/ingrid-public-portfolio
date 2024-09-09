@@ -59,6 +59,8 @@ General:
 - [ ] Update text 
 - [ ] Change font names / mess around with body font (Sunni)
 - [ ] Update tag styling (Sunni)
+- [ ] Optimise all images for web
+
 
 ---
 

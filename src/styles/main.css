@@ -54,7 +54,7 @@
 		@apply underline;
 	}
 
-	.credit-collapse{
+	.collapse-area{
 		@apply collapse;
 		@apply rounded-none;
 		@apply collapse-arrow;
@@ -64,7 +64,7 @@
 		@apply shadow-inner;
 		@apply shadow-indigo-600;
 	}
-	.credit-collapse a{
+	.collapse-area a{
 		@apply underline;
 	}
 

@@ -1,5 +1,5 @@
 ---
-title: Bellingcat
+title: Investigative Journalism with Bellingcat
 description: In-grid invited Bellingcat to share techniques for digital investigative journalism.
 date: 2020-06-17
 icon: Bellingcat.png
