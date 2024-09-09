@@ -1,5 +1,14 @@
 [
 	{
+		"key":"bdesouky",
+		"name":"Batool Desouky",
+		"active": true,
+		"bio": "Batool Desouky is a computational artist and creative technologist. Their work is cultivated through a practice-based research on the technical and historical ties between computation and Arabic indigenous occult traditions. They work in code, drawing, physical computing and writing to explore alternative and decolonial histories of the narrative of technology.",
+		"website":"https://batooldesouky.net",
+		"photo":"Batool.jpg",
+		"instagram":"sun.seeking.goth"
+	},
+	{
 		"key":"csv",
 		"name":"Chris Speed",
 		"active": true,
@@ -7,6 +16,15 @@
 		"website":"https://chrisspeedvisuals.com/",
 		"photo":"CSV.png",
 		"instagram":"chrisspeedvisuals"
+	},
+	{
+		"key":"gsimms",
+		"name":"George Simms",
+		"active": true,
+		"bio":"Researcher, dev*hacker, queer instigator and crip trouble. In their work, they create and develop digital tools, infrastructures and protocols for distributed network infrastructures. They are currently finishing off a PhD in queer and crip collective methods towards automated sociotechnical infrastructure. They teach and mentor experimental media, speculative computing and coding skills at I-Dat, UoP. They are also a founding member of In-grid, a London base trans*feminist collective that develops and produces technical infrastructures, skills shares and events*parties.",
+		"website":"http://georgesimms.net",
+		"photo":"George.jpg",
+		"instagram":"4_lorn_"
 	},
 	{
 		"key":"hryan",
@@ -18,13 +36,13 @@
 		"instagram":""
 	},
 	{
-		"key":"vradchenko",
-		"name":"Valeria Radchenko",
+		"key":"inakhla",
+		"name":"I. Nakhla",
 		"active": true,
-		"bio":"Valeria Radchenko is a multidisciplinary artist, music producer and facilitator. Working across sound, performance, video, ritual and creative coding, they play with the fusing of genres and mediums, weaving personal narratives with speculative fiction to dream new worlds. Exploring sound as a form of touch, they are particularly interested in the emotional potential of electronic music - how we can work with technology to express what is human. In 2019, Valeria graduated from Goldsmiths with an MA in Computational Arts. Their final master’s piece was an immersive audio-visual performance entitled XIDALIA. The piece explored a post-apocalyptic narrative through multi-screen projection and experimental electronic music, guiding audience members through a portal to a glitchy, transformed world. The performance included coded animations, 360 video, live-coded sound and live vocals. Valeria has since worked as a composer for performances and films, released music independently, and has hosted experimental art/music events with creative computing collective, in-grid. Valeria has performed across London venues such as Corsica, Avalon Cafe and The Glove That Fits. Their sonic practice is shared through public workshops, ranging from music production to collective singing, in art spaces, parties, festivals and in educational contexts. In 2023, Valeria was awarded a grant from Help Musicians to release their debut album, VISIONS, in spring 2024.",
-		"website":"https://www.valeriaradchenko.com/",
-		"photo":"Valeria.jpg",
-		"instagram":"valeriiiaaaaa"
+		"bio": "I. Nakhla is an artist, musician, and educator based in London. Their practice borrows from the fringes of music, computational arts, and sculpture. Through performance, workshops, field recording, and music they generate sonic worlds. Their audio work is rooted in relations between voice, place, environment, and identity (personal as well as community, intergenerational as well as present-tense). Collaboration and participation are key to their practice, with process-led making informing output or exhibition. Nakhla is often found DJ'ing their dyke+ centred tunes in clubs, or sharing work in less gallery-focused arts spaces. They are interested in working with the sonic to queer sites of production and presentation, in search of inclusive and ongoing sonic ecosystems. As well as their art practice, Nakhla works as a lecturer at Camberwell College of Art (BA Sculpture) and Northampton University (BA Fine Art). They release music under the moniker end measure.",
+		"website":"http://www.inakhla.com",
+		"photo":"I.Nakhla.jpg",
+		"instagram":"nakhla.z"
 	},
 	{
 		"key":"jdverdier",
@@ -36,31 +54,13 @@
 		"instagram":"johannadeverdier"
 	},
 	{
-		"key":"bdesouky",
-		"name":"Batool Desouky",
+		"key":"ktindle",
+		"name":"Katie Tindle",
 		"active": true,
-		"bio": "Batool Desouky is a computational artist and creative technologist. Their work is cultivated through a practice-based research on the technical and historical ties between computation and Arabic indigenous occult traditions. They work in code, drawing, physical computing and writing to explore alternative and decolonial histories of the narrative of technology.",
-		"website":"https://batooldesouky.net",
-		"photo":"Batool.jpeg",
-		"instagram":"sun.seeking.goth"
-	},
-	{
-		"key":"sliao",
-		"name":"sunni Liao",
-		"active": true,
-		"bio": "Sunni (Yu Hsuan Liao) is a visual artist whose work focuses on the essential characteristics of graphics by means of mathematical precision and aesthetics. Her works are primarily audio-visual and two-dimensional in format, alongside audio visual and video art installations. They have been shown in Corsica studio, Iklectik, Peckham Digital Festival and Taipei Fine Art Museum.",
+		"bio":"Kat did something or another.",
 		"website":"",
-		"photo":"sunni.jpg",
-		"instagram":"sunni0o"
-	},
-	{
-		"key":"inakhla",
-		"name":"I. Nakhla",
-		"active": true,
-		"bio": "I. Nakhla is an artist, musician, and educator based in London. Their practice borrows from the fringes of music, computational arts, and sculpture. Through performance, workshops, field recording, and music they generate sonic worlds. Their audio work is rooted in relations between voice, place, environment, and identity (personal as well as community, intergenerational as well as present-tense). Collaboration and participation are key to their practice, with process-led making informing output or exhibition. Nakhla is often found DJ'ing their dyke+ centred tunes in clubs, or sharing work in less gallery-focused arts spaces. They are interested in working with the sonic to queer sites of production and presentation, in search of inclusive and ongoing sonic ecosystems. As well as their art practice, Nakhla works as a lecturer at Camberwell College of Art (BA Sculpture) and Northampton University (BA Fine Art). They release music under the moniker end measure.",
-		"website":"http://www.inakhla.com",
-		"photo":"I.Nakhla.jpg",
-		"instagram":"nakhla.z"
+		"photo":"300.jpeg",
+		"instagram":"in_grid___"
 	},
 	{
 		"key":"mbenson",
@@ -72,15 +72,6 @@
 		"instagram":"megbenson"
 	},
 	{
-		"key":"ktindle",
-		"name":"Katie Tindle",
-		"active": true,
-		"bio":"Kat did something or another.",
-		"website":"",
-		"photo":"300.jpeg",
-		"instagram":"in_grid___"
-	},
-	{
 		"key":"raston",
 		"name":"Rebecca Aston",
 		"active": true,
@@ -88,6 +79,33 @@
 		"website":"/",
 		"photo":"300.jpeg",
 		"instagram":"in_grid___"
+	},
+	{
+		"key":"sliao",
+		"name":"sunni Liao",
+		"active": true,
+		"bio": "Sunni (Yu Hsuan Liao) is a visual artist whose work focuses on the essential characteristics of graphics by means of mathematical precision and aesthetics. Her works are primarily audio-visual and two-dimensional in format, alongside audio visual and video art installations. They have been shown in Corsica studio, Iklectik, Peckham Digital Festival and Taipei Fine Art Museum.",
+		"website":"",
+		"photo":"sunni.jpg",
+		"instagram":"sunni0o"
+	},
+	{
+		"key":"vradchenko",
+		"name":"Valeria Radchenko",
+		"active": true,
+		"bio":"Valeria Radchenko is a multidisciplinary artist, music producer and facilitator. Working across sound, performance, video, ritual and creative coding, they play with the fusing of genres and mediums, weaving personal narratives with speculative fiction to dream new worlds. Exploring sound as a form of touch, they are particularly interested in the emotional potential of electronic music - how we can work with technology to express what is human. In 2019, Valeria graduated from Goldsmiths with an MA in Computational Arts. Their final master’s piece was an immersive audio-visual performance entitled XIDALIA. The piece explored a post-apocalyptic narrative through multi-screen projection and experimental electronic music, guiding audience members through a portal to a glitchy, transformed world. The performance included coded animations, 360 video, live-coded sound and live vocals. Valeria has since worked as a composer for performances and films, released music independently, and has hosted experimental art/music events with creative computing collective, in-grid. Valeria has performed across London venues such as Corsica, Avalon Cafe and The Glove That Fits. Their sonic practice is shared through public workshops, ranging from music production to collective singing, in art spaces, parties, festivals and in educational contexts. In 2023, Valeria was awarded a grant from Help Musicians to release their debut album, VISIONS, in spring 2024.",
+		"website":"https://www.valeriaradchenko.com/",
+		"photo":"Valeria.jpg",
+		"instagram":"valeriiiaaaaa"
+	},
+	{
+		"key":"vjussila",
+		"name":"Veera Jussila",
+		"active": true,
+		"bio":"Veera is a computational artist and machine learning engineer with expertise in computer vision and generative AI. Her practice focuses on machine learning as a form of knowledge production. By misplugging and subverting data pipelines, she studies the edges and logics of deep learning systems and reimagines them. Besides her day job as a machine learning engineer, Veera has recently worked as a researcher in Transforming Collections project (link: https://www.arts.ac.uk/ual-decolonising-arts-institute/projects/transforming-collections) at the UAL Creative Computing Institute, collaborating with 16 art partners including the Tate. She produced In-grid: Chain (here: internal link within our website) takeover at Iklectik in 2022. ",
+		"website":"https://www.veerajussila.com/",
+		"photo":"Veera.jpg",
+		"instagram":"valeriiiaaaaa"
 	},
 	{
 		"key": "dalsa",

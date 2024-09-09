@@ -2,7 +2,6 @@
 layout: base.njk
 ---
 
-
 {# Is this box of boxes a bit too busy? #}
 {# <div class="max-w-screen-xl mx-auto mt-16 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-8 border-dotted border-indigo-600 border shadow-lg shadow-indigo-600"> #}
 <div class="md:max-w-7xl mx-auto mt-8 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-8">
@@ -29,7 +28,7 @@ layout: base.njk
 			<ul class="relative project-metadata font-main ">
 			{%- for tag in tags | filterTagList %}
 			{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-			<a href="{{ tagUrl }}" class="project-tag rounded-md hover:text-white hover:bg-indigo-600 border-indigo-600 border text-indigo-600 border-dotted badge badge-outline">{{ tag }}</a>{%- if not loop.last %}  {% endif %}
+			<a href="{{ tagUrl }}" class="project-tag rounded-md hover:text-white hover:bg-indigo-600 border-indigo-600 border text-indigo-600 border-dotted badge badge-outline badge-lg">{{ tag }}</a>{%- if not loop.last %}  {% endif %}
 			{%- endfor %}
 			</ul>
 		</div>

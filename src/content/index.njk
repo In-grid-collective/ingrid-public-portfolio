@@ -3,48 +3,25 @@ layout: home.njk
 numberOfLatestProjectsToShow: 4
 ---
 
-{# 
-<div class="collapse collapse-plus border border-dashed border-indigo-600">
-  <input type="radio" name="my-accordion-3" checked="checked" />
-  <div class="collapse-title text-3xl font-Test2">Upcoming event</div>
-  <div class="collapse-content max-h-96 overflow-auto">
-
-<div class="p-2 rounded-md border border-dashed border-indigo-600 shadow-lg shadow-indigo-600">
-    <div class=" rounded-md flex items-center justify-center">
-        <section class="text-indigo-600 body-font">
-            <div class=" container mx-auto flex md:flex-row flex-col items-center">
-                <div class=" flex flex-col items-center text-center ">
-                    <h1 class="font-Test2 sm:text-4xl text-3xl mb-4 font-medium text-indigo-600 border-dashed border-indigo-600  hover:text-white hover:bg-indigo-600  ">
-                        <br class="border-2 border-dashed  hidden lg:inline-block ">8M
-                    </h1>
-             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img class="object-center rounded max-h-[25%]" src="https://www.in-grid.io/wp-content/uploads/2023/01/05-scaled.jpg">
-                </div>
-            <p class="p-8 leading-relaxed font-Test2 hover:text-white hover:bg-indigo-600  shadow-indigo-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <button class="btn font-Test2 text-indigo-600 bg-white border border-dashed border-indigo-600">Full article</button>
-                </div>
-            </div>
-        </section>
+  <div class="rounded-lg font-Test2 pointer-events-none relative flex overflow-hidden shadow-lg shadow-indigo-600 border border-dashed border-y-indigo-600 py-2 hover:text-white hover:bg-indigo-600">
+    <div class="animate-marquee text-indigo-600 flex min-w-full shrink-0 items-center justify-around  ">
+          <span class="mx-4 text-2xl">TRANSNATIONAL ANTI-COLONIAL TRANS★FEMINIST COUNTER CLOUD ACTION DAY</span>
+    </div>
+    <div aria-hidden="true" class="text-indigo-600 animate-marquee flex min-w-full shrink-0 items-center justify-around ">
+             <span class="mx-4 text-2xl">TRANSNATIONAL ANTI-COLONIAL TRANS★FEMINIST COUNTER CLOUD ACTION DAY</span>
     </div>
   </div>
-  </div>
-</div>
+<div class="rounded-lg place-items-center grid grid-cols-1 md:grid-cols-2 lg:gap-8 shadow-lg shadow-indigo-600">
+  <div class="p-8 ">
+    <h1>Research Workshop 2024: Content/Form</h1>
+    <p class="py-8">The participants of this year’s workshop will present their reflections on ways to collapse traditional workflows of academic publishing, drawing form and content more closely together. </p>
+    <button class="btn btn-outline hover:text-white hover:bg-indigo-600 border-indigo-600 text-indigo-600 font-Test2">More info</button>
 
-<div class="collapse collapse-plus border border-dashed border-indigo-600">
-  <input type="radio" name="my-accordion-3" />
-  <div class="collapse-title text-3xl font-Test2 font-medium">Workshops</div>
-  <div class="collapse-content">
-    <p class="font-Test2">hello</p>
+  </div>
+  <div class="">
+    <img src="https://data.transmediale.de/assets/_1600xAUTO_crop_center-center_none/tm24_ResearchWorkshop2024_HKW_AngieStardustFoyer_2403_CCBYNCSA_LauraFiorio_002.jpg" class="rounded-lg"/>
   </div>
 </div>
-<div class="collapse collapse-plus border border-dashed border-indigo-600">
-  <input type="radio" name="my-accordion-3" />
-  <div class="collapse-title text-3xl font-Test2 font-medium">Resources</div>
-  <div class="collapse-content">
-    <p class="font-Test2">hello</p>
-  </div>
-</div>
-#}
 
 {# <p>Any custom bits only for the home page can be added... </p> #}
 
@@ -82,6 +59,6 @@ numberOfLatestProjectsToShow: 4
     <h3 class="mb-4 rounded-md">Project Categories</h3>
     {% for tag in collections.all | getAllTags | filterTagList %}
         {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-        <a href="{{ tagUrl }}" class="">{{ tag }}</a>{%- if not loop.last %} &nbsp; |  &nbsp; {% endif %}
+        <a href="{{ tagUrl }}" class="font-Test3 font-bold project-tag rounded-md hover:text-white hover:bg-indigo-600 border-indigo-600 border text-indigo-600 border-dotted badge badge-outline badge-lg">{{ tag }}</a>{%- if not loop.last %} {% endif %}
     {% endfor %}
 </div>
