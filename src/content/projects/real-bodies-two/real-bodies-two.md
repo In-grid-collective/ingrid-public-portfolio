@@ -2,7 +2,7 @@
 title: Real Bodies 2.0
 description: This is a project about code and stuff.
 date: 2023-08-12
-icon: RealBodies.png
+icon: marquis.jpg
 tags:
   - real bodies
   - live performance

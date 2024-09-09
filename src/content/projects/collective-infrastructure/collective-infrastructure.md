@@ -1,7 +1,7 @@
 ---
 title: Collective Infrastructure
 description: This is a project with some images in it.
-date: 2023-06-03
+date: 2024-07-18
 icon: Servpub.png
 tags: 
     - infrastructure
@@ -9,6 +9,6 @@ tags:
 ---
 
 
-The real text for servpub.
+The real text for EASST.
 
 

@@ -38,6 +38,10 @@ credits:
     role: participating artist
   - id: sliao
     role: participating artist
+  - id: vjussila
+    role: participating artist
+  - id: vjussila
+    role: producer
   - id: hryan
     role: producer
   - id: ktindle
@@ -48,7 +52,9 @@ credits:
     role: event support
   - id: inakhla
     role: event support
-  
+  - id: gsimms
+    role: event support
+    
 ---
 
 

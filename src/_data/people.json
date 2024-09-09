@@ -75,10 +75,10 @@
 		"key":"raston",
 		"name":"Rebecca Aston",
 		"active": true,
-		"bio":"Reb did something or another.",
-		"website":"/",
-		"photo":"300.jpeg",
-		"instagram":"in_grid___"
+		"bio":"Rebecca Aston is an artist and creative technologist working with a range of time-based media and computation. She works with paint, textiles and creates interactive software art using different programming languages and hardware. Trained as a painter, she is interested in vision and embodied perception, looking at how our bodies exist within the loop of technological systems. She has a BA in Fine Art from Yale and an MFA in Computational Art from Goldsmiths UoL. She is a lecturer in the computing department at Goldsmiths UoL.",
+		"website":"https://rebeccaaston.com/",
+		"photo":"aston-14.jpg",
+		"instagram":""
 	},
 	{
 		"key":"sliao",
