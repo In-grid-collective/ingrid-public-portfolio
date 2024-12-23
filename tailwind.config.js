@@ -13,7 +13,7 @@ module.exports = {
         'Test':['B21-Regular', 'sans-serif'],
         'Test2':['Anthony', 'sans-serif'],
         'Test3':['Garamondt-Regular', 'sans-serif'],
-        'main':['Kreon-Regular', 'sans-serif'],
+        'main':['mplus', 'sans-serif'],
       },
         colors:{
             // You can configure your colors here

@@ -28,7 +28,7 @@ layout: base.njk
 			<ul class="relative project-metadata font-main ">
 			{%- for tag in tags | filterTagList %}
 			{%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-			<a href="{{ tagUrl }}" class="project-tag rounded-md hover:text-white hover:bg-indigo-600 border-indigo-600 border text-indigo-600 border-dotted badge badge-outline badge-lg">{{ tag }}</a>{%- if not loop.last %}  {% endif %}
+			<a href="{{ tagUrl }}" class="project-tag rounded-md hover:text-black hover:bg-zinc-300 border-indigo-600 border text-indigo-600 border-dotted badge badge-outline badge-lg">{{ tag }}</a>{%- if not loop.last %}  {% endif %}
 			{%- endfor %}
 			</ul>
 		</div>
@@ -162,11 +162,11 @@ layout: base.njk
 <div class="justify-between flex ">
 
 
-	<div class="justify-start font-Test3 text-indigo-600">
+	<div class="justify-start font-Test3 text-indigo-600 ">
 		{%- if nextProject %}
 		
 			<a href="{{ nextProject.url }}">
-				<div class="justify-start flex pt-6 text-indigo-600">
+				<div class="justify-start flex pt-6 text-indigo-600 ">
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
 						<path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18" />
 					</svg>
@@ -180,7 +180,7 @@ layout: base.njk
 		{%- if previousProject %}
 		
 			<a href="{{ previousProject.url }}">
-				<div class="justify-end flex pt-6 text-indigo-600">
+				<div class="justify-end flex pt-6 text-indigo-600 ">
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
 						<path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
 					</svg>	

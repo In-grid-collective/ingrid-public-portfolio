@@ -48,16 +48,16 @@
     </div>
     
     {# CREDITS #}
-    <div class="rounded-md p-4 col-span-1 border-indigo-600 border border-dotted text-indigo-600"> 
-          <div class="grid columns-1 rounded-md">
-            <h2>Credits</h2>
+    <div class="rounded-md p-4 col-span-1 border-indigo-600 border border-dotted text-indigo-600 shadow-md shadow-indigo-600"> 
+          <div class="grid columns-1 rounded-md ">
+            <h2 class="pb-2">Credits</h2>
             {############### PRODUCER CREDITS  ###################}
             {%- set producercredits = collections.projects | getProjectByRolePerson(person.key, "producer") %}
             {%- if producercredits.length > 0 %}  
             <div class="collapse-area rounded-md">
               <input type="checkbox" name="my-accordion-2" /> 
               <div class="collapse-title text-xl font-medium">
-                <h3>Producer</h3>
+                <p class="main">Producer</p>
               </div>
               <div class="collapse-content"> 
                   <ul>
@@ -76,7 +76,7 @@
               <div class="collapse-area credit-collapse">
                 <input type="checkbox" name="my-accordion-2" /> 
                 <div class="collapse-title text-xl font-medium">
-                  <h3>Production Support</h3>
+                  <p class="main">Production Support</p>
                 </div>
                 <div class="collapse-content"> 
                   <ul>
@@ -95,7 +95,7 @@
               <div class="collapse-area rounded-md">
                 <input type="checkbox" name="my-accordion-2" /> 
                 <div class="collapse-title text-xl font-medium">
-                  <h3>Participating Artist</h3>
+                  <p class="main">Participating Artist</p>
                 </div>
 
                 <div class="collapse-content"> 
@@ -115,7 +115,7 @@
               <div class="collapse-area rounded-md">
                 <input type="checkbox" name="my-accordion-2" /> 
                 <div class="collapse-title text-xl font-medium">
-                  <h3>Event Support</h3>
+                  <p class="main">Event Support</p>
                 </div>
 
                 <div class="collapse-content"> 

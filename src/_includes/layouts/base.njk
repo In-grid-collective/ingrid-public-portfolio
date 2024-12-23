@@ -6,6 +6,9 @@
 		<title>{{ title or metadata.title }}</title>
 		<meta name="description" content="{{ description or metadata.description }}">
 		<script src="/js/navbar.js"></script>
+		<!-- Required Core stylesheet -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="/assets/main.css" />
     <style type="text/css">{{googleFontsStylesheet|safe}}</style>
 
@@ -30,7 +33,7 @@
 		{# ---------------------- END OF NOTE USED -------------------- #}
 
 	</head>
-	<body class="bg-white ">
+	<body class=" ">
 {# bg-[linear-gradient(to_right,#dfcfff_1px,transparent_1px),linear-gradient(to_bottom,#dfcfff_1px,transparent_1px)] bg-[size:12.5vw_12.5vw] #}
 		<header>
 			{% include "nav.njk" %}
@@ -55,7 +58,8 @@
 			{% include "footer.njk" %}
 		</footer>
 
-    <script src="/assets/main.js"></script>
+    	<script src="/assets/main.js"></script>
+
 		<!-- Current page: {{ page.url | htmlBaseUrl }} -->
 	</body>
 </html>

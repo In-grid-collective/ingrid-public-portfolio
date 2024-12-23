@@ -14,6 +14,6 @@ eleventyNavigation:
     <h3 class="mb-4">Project Categories</h3>
     {% for tag in collections.all | getAllTags | filterTagList %}
         {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-        <a href="{{ tagUrl }}" class="">{{ tag }}</a>{%- if not loop.last %} &nbsp; |  &nbsp; {% endif %}
+        <a href="{{ tagUrl }}" class="hover:text-black hover:bg-zinc-300">{{ tag }}</a>{%- if not loop.last %} &nbsp; |  &nbsp; {% endif %}
     {% endfor %}
 </div>

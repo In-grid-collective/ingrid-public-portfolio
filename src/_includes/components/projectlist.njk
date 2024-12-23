@@ -40,9 +40,9 @@
 	</details>#}
     <div class="columns-1 gap-2 sm:columns-2 sm:gap-8 md:columns-3 m-2 lg:columns-4 min-h-full [&>img:not(:first-child)]:mt-8 ">
 		{% for project in projectlist | reverse %}
-			<div class="rounded-md break-inside-avoid-column hover:text-white hover:bg-indigo-600 border border-dashed border-indigo-600 shadow-lg shadow-indigo-600 hover:border-white {% if project.url == url %} projectlist-item-active{% endif %}">
+			<div class="rounded-md break-inside-avoid-column hover:text-black hover:bg-zinc-300 border border-dashed border-indigo-600 shadow-lg shadow-indigo-600 hover:border-white {% if project.url == url %} projectlist-item-active{% endif %}">
 
-				<a href="{{ project.url }}" class="projectlist-link p-8 inline-block">
+				<a href="{{ project.url }}" class="projectlist-link p-8 inline-block ">
 
 					{% if project.data.icon %}
 					{% set imgurl = "."+project.url + project.data.icon %}
@@ -50,7 +50,7 @@
 					{% endif %}
 
 					<h3>{% if project.data.title %}{{ project.data.title }}{% endif %}</h3>
-					<time class="projectlist-date font-main" datetime="{{ project.date | htmlDateString }}">{{ project.date | readableDate("LLLL yyyy") }}</time>
+					<time class="projectlist-date font-main " datetime="{{ project.date | htmlDateString }}">{{ project.date | readableDate("LLLL yyyy") }}</time>
 
 				</a>		
 			</div>

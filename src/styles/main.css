@@ -3,7 +3,6 @@
 @tailwind utilities;
 /* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); */
 
-
 /*TO-DO: remove the second fontload for github pages when move to proper hosting... interim fix for github pages*/
 @font-face {
   font-family: "Anthony";
@@ -23,6 +22,11 @@
 		url("https://in-grid-collective.github.io/ingrid-public-portfolio/public/assets/fonts/kreon-regular-webfont.woff")format("woff");
   }
 
+  @font-face {
+	font-family: "mplus";
+	src: url("../../public/assets/fonts/mplus-1m-regular.woff")format("woff"),
+		url("https://in-grid-collective.github.io/ingrid-public-portfolio/public/assets/fonts/mplus-1m-regular.woff")format("woff");
+  }
 
 
 
@@ -273,4 +277,52 @@ a[href][aria-current="page"] {
     color: rgba(79,70,229,1);
     border-radius: 10px;
     box-shadow: 1px -2px 22px 1px rgba(79,70,229,1) inset;
+  }
+
+  .swiper {
+	width: auto;
+	height: 300px;
+  }
+  .swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+  }
+  .hide {
+	display: none;
+  }
+	  
+  .myDIV:hover + .hide {
+	display: flex;
+	color: red;
+  }
+
+  @media (max-width: 760px) {
+	.swiper-button-next {
+	  right: 20px;
+	  transform: rotate(90deg);
+	}
+
+	.swiper-button-prev {
+	  left: 20px;
+	  transform: rotate(90deg);
+	}
   }

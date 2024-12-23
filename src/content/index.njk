@@ -1,13 +1,13 @@
 ---
 layout: home.njk
-numberOfLatestProjectsToShow: 4
+numberOfLatestProjectsToShow: 7
 ---
 
-  <div class="rounded-lg font-Test2 pointer-events-none relative flex overflow-hidden shadow-lg shadow-indigo-600 border border-dashed border-y-indigo-600 py-2 hover:text-white hover:bg-indigo-600">
-    <div class="animate-marquee text-indigo-600 flex min-w-full shrink-0 items-center justify-around  ">
+  <div class="rounded-lg font-Test2 pointer-events-none relative flex overflow-hidden shadow-lg shadow-indigo-600 border border-dashed border-y-indigo-600 py-2 ">
+    <div class="animate-marquee text-zinc-500 flex min-w-full shrink-0 items-center justify-around  ">
           <span class="mx-4 text-2xl">TRANSNATIONAL ANTI-COLONIAL TRANS★FEMINIST COUNTER CLOUD ACTION DAY</span>
     </div>
-    <div aria-hidden="true" class="text-indigo-600 animate-marquee flex min-w-full shrink-0 items-center justify-around ">
+    <div aria-hidden="true" class="text-zinc-500 animate-marquee flex min-w-full shrink-0 items-center justify-around ">
              <span class="mx-4 text-2xl">TRANSNATIONAL ANTI-COLONIAL TRANS★FEMINIST COUNTER CLOUD ACTION DAY</span>
     </div>
   </div>
@@ -15,7 +15,7 @@ numberOfLatestProjectsToShow: 4
   <div class="p-8 ">
     <h1>Research Workshop 2024: Content/Form</h1>
     <p class="py-8">The participants of this year’s workshop will present their reflections on ways to collapse traditional workflows of academic publishing, drawing form and content more closely together. </p>
-    <button class="btn btn-outline hover:text-white hover:bg-indigo-600 border-indigo-600 text-indigo-600 font-Test2">More info</button>
+    <p class="text-indigo-600 hover:text-black hover:bg-zinc-300 font-main"> ->> More info</p>
 
   </div>
   <div class="">
@@ -24,41 +24,65 @@ numberOfLatestProjectsToShow: 4
 </div>
 
 {# <p>Any custom bits only for the home page can be added... </p> #}
+<div class="grid shadow-lg shadow-indigo-100 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
+  <div class= "font-Test2 p-4 text-4xl">Activity</div>
 
-<div>
+    <div class="col-span-2">
+      <div class="grid grid-flow-row auto-rows-4 md:auto-rows-4 ">
+      {% set projectsCount = collections.projects | length %}
+      {% set latestProjectsCount = projectsCount | min(numberOfLatestProjectsToShow) %} 
+      {% set projectlist = collections.projects | head(-1 * numberOfLatestProjectsToShow) %}
+      {% set projectlistCounter = projectsCount %}
+      {% for project in projectlist | reverse %}
+      <div class="border border-indigo-600 font-Test2 hover:text-black hover:bg-zinc-300 bg-opacity-25">
+        <a href="{{ project.url }}">
+        <div class="m-2">
+        <time datetime="{{ project.date | htmlDateString }}" class="text-zinc-500">{{ project.date | readableDate }}</time>
+        <h1 class="myDIV">{{ project.data.title }}</h1>
+        <div class="hide">
+          <div class="avatar">
+          <div class="w-24 rounded">
+					{% if project.data.icon %}
+					{% set imgurl = "."+project.url + project.data.icon %}
+					{% image imgurl, "A possum parent and two possum kids hanging from the iconic red balloon" %}
+					{% endif %}</div></div>
+        </div>
+        </div>
+        </a>
+      </div>
+      {% endfor %}
+      {% set moreProjects = projectsCount - numberOfLatestProjectsToShow %}
+    {% if moreProjects > 0 %}
+    <div class="font-Test2 hover:text-black hover:bg-zinc-300 border border-indigo-600 text-right"><h2 class="pr-2"> <a href="/projects/">VIEW PAST </a></h2></div>
 
-{% set projectsCount = collections.projects | length %}
-{% set latestProjectsCount = projectsCount | min(numberOfLatestProjectsToShow) %}
-{# <h1>Recent Projects</h1> #}
+    {% endif %}
 
-{% set projectlist = collections.projects | head(-1 * numberOfLatestProjectsToShow) %}
-{% set projectlistCounter = projectsCount %}
-{% include "projectlist.njk" %}
+      </div>
+    </div>
+    
 
-{% set moreProjects = projectsCount - numberOfLatestProjectsToShow %}
-{% if moreProjects > 0 %}
-<h1 class='font-Test2 mt-30 text-xl flex items-center justify-center text-indigo-600 hover:text-white hover:bg-indigo-600 border border-dashed border-indigo-600'> <a href="/projects/">+MORE PROJECTS+ </a></p>
-{# {{ moreProjects }} more project{% if moreProjects != 1 %}s{% endif %}can be seen #}
-{% endif %}
-
-{# List every content page in the project #}
-{#
-<ul>
-	{%- for entry in collections.all %}
-	<li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
-	{%- endfor %}
-</ul>
-#}
 
 </div>
-
-
-
-<div class="text-center px-8 py-4 mt-4 border-indigo-600 border border-dotted shadow-lg shadow-indigo-600">
-        
-    <h3 class="mb-4 rounded-md">Project Categories</h3>
+    <!-- Swiper -->
+  <h1 class="rounded-md font-Test2 m-4 ">Project Categories</h1>
+  <div class="swiper shadow-lg shadow-indigo-600">
+    <div class="swiper-wrapper  ">
     {% for tag in collections.all | getAllTags | filterTagList %}
         {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-        <a href="{{ tagUrl }}" class="font-Test3 font-bold project-tag rounded-md hover:text-white hover:bg-indigo-600 border-indigo-600 border text-indigo-600 border-dotted badge badge-outline badge-lg">{{ tag }}</a>{%- if not loop.last %} {% endif %}
+        {% set projectlist = collections[ tag ] %}
+        <div class="swiper-slide flex flex-col ">
+        <div class="avatar">
+        <div class="w-24 rounded">
+        <img src="https://www.in-grid.io/wp-content/uploads/2020/05/subversive-shadows_compress.gif" />  </div></div>
+        <a href="{{ tagUrl }}" class="font-Test3 font-bold rounded-md text-indigo-600 hover:text-black hover:bg-zinc-300">{{ tag }}</a>{%- if not loop.last %} {% endif %}
+        </div>
     {% endfor %}
-</div>
+    </div>
+    <div class="swiper-button-next text-indigo-600 hover:text-gray-500"></div>
+    <div class="swiper-button-prev text-indigo-600 hover:text-gray-500"></div>
+  </div>
+
+
+        
+
+

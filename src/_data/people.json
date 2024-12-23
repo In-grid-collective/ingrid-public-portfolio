@@ -57,10 +57,10 @@
 		"key":"ktindle",
 		"name":"Katie Tindle",
 		"active": true,
-		"bio":"Kat did something or another.",
-		"website":"",
-		"photo":"300.jpeg",
-		"instagram":"in_grid___"
+		"bio":"Katie Tindle is a contemporary artist, creative technologist and educator living in London. She is originally from the North East of England and teaches computational arts at Goldsmiths, UoL.",
+		"website":"https://katietindle.co.uk/",
+		"photo":"Katie.png",
+		"instagram":"ktwindmill"
 	},
 	{
 		"key":"mbenson",
@@ -106,6 +106,15 @@
 		"website":"https://www.veerajussila.com/",
 		"photo":"Veera.jpg",
 		"instagram":"valeriiiaaaaa"
+	},
+	{
+		"key":"yjin",
+		"name":"Yewen Jin",
+		"active": true,
+		"bio":"Yewen Jin is a creative technologist, research-based curator and multi-disciplinary artist who investigates the relationship between the self, the body and reality as systems of stimuli in the post-digital era. As a musician & DJ, she has performed at venues across London such as Cafe Oto, IKLECTIK, and Corsica Studios. She co-founded Skopetur, a live event production & curation initiative exploring new modes of performances, and led the production of event series Distance Anatomy, through which dancers, musicians and visual artists perform collaboratively across London and New York.",
+		"website":"https://yewenjin.com",
+		"photo":"Yewen.jpeg",
+		"instagram":"ywnj1n"
 	},
 	{
 		"key": "dalsa",
