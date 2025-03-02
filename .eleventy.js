@@ -104,6 +104,7 @@ module.exports = function(eleventyConfig) {
 		return Array.from(tagSet);
 	});
 
+
 	eleventyConfig.addFilter("filterTagList", function filterTagList(tags) {
 		return (tags || []).filter(tag => ["all", "nav", "project", "projects"].indexOf(tag) === -1);
 	});
@@ -147,6 +148,7 @@ module.exports = function(eleventyConfig) {
 			// return p.data.person === person;	
 		});
 	});
+
 
 	eleventyConfig.addFilter("getProjectByRolePerson", (projects,person,role) => {
 		return projects.filter(project => {
