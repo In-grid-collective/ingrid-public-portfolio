@@ -1,6 +1,6 @@
 
 {%- if rolecredits.length > 0 %}  
-<div class="collapse-area">
+<div class="collapse-area rounded-md">
 	<input type="checkbox" name="my-accordion-2" /> 
 	<div class="rounded-md collapse-title text-xl font-medium">
 	<h3>{{role}}</h3>
@@ -13,7 +13,7 @@
 
 			{%- if p.active -%}
 
-				<li class="text-indigo-600"><a class="underline" href="/people/{{ p.key }}">{{ p.name }}</a></li>
+				<li class="text-zinc-500"><a class="underline" href="/people/{{ p.key }}">{{ p.name }}</a></li>
 
 			{% else %}
 				
