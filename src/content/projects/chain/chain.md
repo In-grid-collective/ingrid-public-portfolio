@@ -26,6 +26,10 @@ tags:
   - live performance
   - exhibition
 credits: 
+  - id: jlawton
+    role: participating artist
+  - id: rbiros
+    role: participating artist
   - id: jdverdier
     role: participating artist
   - id: mbenson
@@ -39,6 +43,8 @@ credits:
   - id: sliao
     role: participating artist
   - id: vjussila
+    role: participating artist
+  - id: yjin
     role: participating artist
   - id: vjussila
     role: producer

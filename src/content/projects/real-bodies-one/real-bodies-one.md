@@ -1,19 +1,60 @@
 ---
 title: Real Bodies 1.0
-description: This is a project about code and stuff.
-date: 2022-04-19
+description: In-grid.RealBodies was an evening which took advantage of the multiplicity of Corsica Studios, a respected venue in London’s Elephant and Castle.
+date: 2022-05-19
 icon: RealBodies.png
 tags:
   - real bodies
   - party
   - live performance
   - exhibition
+credits:
+  - id: rbiros
+    role: participating artist
+  - id: jlawton
+    role: participating artist
+  - id: cspeed
+    role: participating artist
+  - id: vradchenko
+    role: participating artist
+  - id: yjin
+    role: participating artist
+  - id: inakhla
+    role: participating artist
+  - id: ntownsend
+    role: participating artist
+  - id: mbenson
+    role: participating artist
+  - id: gsimms
+    role: participating artist
+  - id: jdverdier
+    role: participating artist
+  - id: mbenson
+    role: participating artist
+  - id: raston
+    role: participating artist
+  - id: ktindle
+    role: participating artist
+  - id: hryan
+    role: participating artist
+  - id: sliao
+    role: participating artist
+  - id: vjussila
+    role: participating artist
+  - id: ktindle
+    role: producer
+  - id: hryan
+    role: producer
+  - id: ktindle
+    role: production support
+  - id: raston
+    role: production support
+  - id: bdesouky
+    role: event support
+  - id: inakhla
+    role: event support
+  - id: gsimms
+    role: event support
 ---
 
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel nulla leo. Praesent vitae ligula lacinia, viverra sapien eget, pharetra ipsum. In dignissim bibendum diam, sit amet malesuada metus rhoncus ac. Fusce posuere aliquet lectus vel gravida. Proin ipsum lectus, interdum nec tincidunt nec, cursus vitae massa. Sed pulvinar lorem viverra, hendrerit lacus vestibulum, placerat enim. Vivamus ac dui pellentesque, facilisis felis eu, mattis dui. Sed quis porta ipsum. Integer sed pellentesque nibh.
-
-Suspendisse potenti. In dui purus, congue ut mauris eu, scelerisque ullamcorper elit. Nunc sed quam dolor. Vivamus egestas eleifend urna. Donec sit amet neque sodales, porta libero vel, semper velit. Ut eleifend mattis erat at dignissim. Nam magna dui, dignissim sed tortor quis, facilisis hendrerit libero. Nam volutpat nibh tellus, sit amet faucibus elit fermentum in. Fusce tincidunt tellus nibh, eget hendrerit neque sollicitudin eu. Cras ullamcorper tellus ac mauris tempor, quis tristique augue laoreet.
-
-Phasellus ullamcorper, dolor sit amet dictum iaculis, magna justo tristique ex, non rutrum dui elit vel ex. Nam ante elit, pulvinar a ornare non, fringilla quis ex. Cras malesuada, velit vel consectetur tristique, mi nulla volutpat orci, sed rutrum magna dui in erat. Donec efficitur mi erat, quis posuere mi iaculis laoreet. Nunc tincidunt nisi nisl. Nunc diam odio, commodo ut felis mattis, fermentum blandit velit. Mauris ac luctus tellus. Phasellus erat mauris, ultrices ut fermentum posuere, euismod at tellus. Mauris cursus magna sit amet sem tempor condimentum. Fusce ut mi maximus, tempor mauris ut, maximus libero.
+Clubs are refracted spaces, experienced by their visitors as serving a spectrum of functions. They are places to converge and meld bodies into dance monstrosities. They are the site of introspection, of a mindful hedonism, for an individual alone in a smoking area. Or else they are safe spaces, a room in which to comfortably self destruct. In-grid collective gathered a group of artists, musicians and creative technologists to share work about the transmutational potential of the club venue at Corsica Studios, marking the beginning of the RealBodies series of events.
