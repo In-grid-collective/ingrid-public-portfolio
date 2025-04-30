@@ -1,5 +1,5 @@
 ---
-title: Research Workshop 2024_ Content/Form
+title: Content Form Transmediale Workshop w/ servpub
 description: workshop will present their reflections on ways to collapse traditional workflows of academic publishing, drawing form and content more closely together.
 date: 2024-07-18
 icon: transmediale.jpg

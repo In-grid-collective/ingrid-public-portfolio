@@ -1,6 +1,6 @@
 ---
 title: Real Bodies 2.1
-description: A night of experimental sound and art. Expect audio-visual performances and computational artworks, exploring the concept of bodily transformation. 
+description: Join us at Avalon Cafe on the 18th of September for another night of experimental sound and art. Expect audio-visual performances and computational artworks, exploring the concept of bodily transformation.
 date: 2024-09-18 
 icon: instarealBodies2.1.png
 tags:
@@ -31,6 +31,39 @@ imagegallery:
   - avalon19.png
   - avalon20.png
   - avalon21.jpeg
+credits:
+  - id: inakhla
+    role: participating artist 
+  - id: gsimms
+    role: participating artist
+  - id: raston
+    role: participating artist
+  - id: ktindle
+    role: participating artist
+  - id: cspeed
+    role: participating artist
+  - id: vjussila
+    role: participating artist
+  - id: yjin
+    role: participating artist
+  - id: vradchenko
+    role: participating artist
+  - id: jdverdier
+    role: participating artist
+  - id: bdesouky
+    role: participating artist
+  - id: hryan
+    role: participating artist
+  - id: vradchenko
+    role: producer
+  - id: cspeed
+    role: producer
+  - id: ktindle
+    role: production support
+  - id: ktindle
+    role: event support
+  - id: raston
+    role: event support
 
 ---
 

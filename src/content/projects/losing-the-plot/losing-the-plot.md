@@ -6,7 +6,7 @@ icon: losing-the-plot.jpeg
 tags:
   - workshop
   - talk
-  - performance
+  - live performance
   - lore
   - zine
   - recent
@@ -29,8 +29,37 @@ imagegallery:
     - group7.JPG
     - group2.png
     - johanna2.jpg
-
-    
+credits: 
+  - id: raston
+    role: participating artist
+  - id: ktindle
+    role: participating artist
+  - id: cspeed
+    role: participating artist
+  - id: vjussila
+    role: participating artist
+  - id: yjin
+    role: participating artist
+  - id: vradchenko
+    role: participating artist
+  - id: jdverdier
+    role: participating artist
+  - id: bdesouky
+    role: participating artist
+  - id: hryan
+    role: participating artist
+  - id: raston
+    role: producer
+  - id: ktindle
+    role: producer
+  - id: jdverdier
+    role: production support
+  - id: vradchenko
+    role: production support
+  - id: hryan
+    role: event support
+  - id: sliao
+    role: event support
 
 ---
 
