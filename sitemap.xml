@@ -132,12 +132,27 @@
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/tags/talk/</loc>
+		<loc>https://example.com/ingrid-public-portfolio/tags/real-bodies/</loc>
+		<lastmod>2024-09-09</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/ingrid-public-portfolio/tags/party/</loc>
 		<lastmod>2024-09-09</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://example.com/ingrid-public-portfolio/tags/live-performance/</loc>
+		<lastmod>2024-09-09</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/ingrid-public-portfolio/tags/exhibition/</loc>
+		<lastmod>2024-09-09</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/ingrid-public-portfolio/tags/talk/</loc>
 		<lastmod>2024-09-09</lastmod>
 	</url>
 	
@@ -148,21 +163,6 @@
 	
 	<url>
 		<loc>https://example.com/ingrid-public-portfolio/tags/zine/</loc>
-		<lastmod>2024-09-09</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://example.com/ingrid-public-portfolio/tags/exhibition/</loc>
-		<lastmod>2024-09-09</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://example.com/ingrid-public-portfolio/tags/real-bodies/</loc>
-		<lastmod>2024-09-09</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://example.com/ingrid-public-portfolio/tags/party/</loc>
 		<lastmod>2024-09-09</lastmod>
 	</url>
 	

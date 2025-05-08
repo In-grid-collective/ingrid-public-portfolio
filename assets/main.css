@@ -833,6 +833,10 @@ details.collapse-area summary::-webkit-details-marker {
   color:white;
 }
 
+a {
+  text-decoration: underline;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -2807,10 +2811,6 @@ details.collapse summary::-webkit-details-marker {
   line-height: 1.75rem;
 }
 
-.font-bold {
-  font-weight: 700;
-}
-
 .font-medium {
   font-weight: 500;
 }
@@ -3185,11 +3185,6 @@ a[href][aria-current="page"] {
 .hover\:text-black:hover {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.hover\:text-gray-500:hover {
-  --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
 .hover\:text-white:hover {
