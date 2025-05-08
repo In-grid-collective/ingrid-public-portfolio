@@ -2,187 +2,222 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/projects/arebyte-residency/</loc>
+		<loc>https://example.com/projects/arebyte-residency/</loc>
 		<lastmod>2019-11-01</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/projects/residency-event-keiken/</loc>
+		<loc>https://example.com/projects/residency-event-keiken/</loc>
 		<lastmod>2020-06-03</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/projects/residency-event-world-building-houdini/</loc>
+		<loc>https://example.com/projects/residency-event-world-building-houdini/</loc>
 		<lastmod>2020-06-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/projects/residency-event-tega-brain/</loc>
+		<loc>https://example.com/projects/residency-event-tega-brain/</loc>
 		<lastmod>2020-06-10</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/projects/residency-event-chatbot-rivescript/</loc>
+		<loc>https://example.com/projects/residency-event-chatbot-rivescript/</loc>
 		<lastmod>2020-06-15</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/projects/residency-event-bellingcat/</loc>
+		<loc>https://example.com/projects/residency-event-bellingcat/</loc>
 		<lastmod>2020-06-17</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/projects/residency-event-maggie-roberts/</loc>
+		<loc>https://example.com/projects/residency-event-maggie-roberts/</loc>
 		<lastmod>2020-06-24</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/projects/residency-event-in-wellness/</loc>
+		<loc>https://example.com/projects/residency-event-in-wellness/</loc>
 		<lastmod>2020-07-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/projects/real-bodies-one/</loc>
-		<lastmod>2022-04-19</lastmod>
+		<loc>https://example.com/projects/real-bodies-one/</loc>
+		<lastmod>2022-05-19</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/projects/set-toppling/</loc>
+		<loc>https://example.com/projects/set-toppling/</loc>
 		<lastmod>2022-09-24</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/projects/chain/</loc>
+		<loc>https://example.com/projects/chain/</loc>
 		<lastmod>2022-11-16</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/projects/servpub/</loc>
+		<loc>https://example.com/projects/servpub/</loc>
 		<lastmod>2023-06-03</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/projects/real-bodies-two/</loc>
+		<loc>https://example.com/projects/real-bodies-two/</loc>
 		<lastmod>2023-08-12</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/projects/servpub-content-form/</loc>
+		<loc>https://example.com/projects/servpub-content-form/</loc>
 		<lastmod>2024-01-28</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/projects/8m/</loc>
+		<loc>https://example.com/projects/8m/</loc>
 		<lastmod>2024-03-08</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/projects/collective-infrastructure/</loc>
+		<loc>https://example.com/projects/collective-infra/</loc>
 		<lastmod>2024-07-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/about/</loc>
+		<loc>https://example.com/projects/content-form/</loc>
+		<lastmod>2024-07-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/about/</loc>
 		<lastmod>2024-09-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/</loc>
+		<loc>https://example.com/people/</loc>
 		<lastmod>2024-09-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/people/</loc>
+		<loc>https://example.com/tags/</loc>
 		<lastmod>2024-09-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/people/bdesouky/</loc>
+		<loc>https://example.com/tags/shadow-subversions/</loc>
 		<lastmod>2024-09-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/projects/</loc>
+		<loc>https://example.com/tags/alter-worlds/</loc>
 		<lastmod>2024-09-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/tags/</loc>
+		<loc>https://example.com/tags/liminal-touch/</loc>
 		<lastmod>2024-09-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/tags/strike/</loc>
+		<loc>https://example.com/tags/digital-labour/</loc>
 		<lastmod>2024-09-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/tags/counter-cloud/</loc>
+		<loc>https://example.com/tags/shifting-chronology/</loc>
 		<lastmod>2024-09-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/tags/shadow-subversions/</loc>
+		<loc>https://example.com/tags/strike/</loc>
 		<lastmod>2024-09-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/tags/alter-worlds/</loc>
+		<loc>https://example.com/tags/counter-cloud/</loc>
 		<lastmod>2024-09-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/tags/liminal-touch/</loc>
+		<loc>https://example.com/tags/workshop/</loc>
 		<lastmod>2024-09-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/tags/digital-labour/</loc>
+		<loc>https://example.com/tags/research/</loc>
 		<lastmod>2024-09-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/tags/shifting-chronology/</loc>
+		<loc>https://example.com/tags/servpub/</loc>
 		<lastmod>2024-09-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/tags/live-performance/</loc>
+		<loc>https://example.com/tags/live-performance/</loc>
 		<lastmod>2024-09-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/tags/exhibition/</loc>
+		<loc>https://example.com/tags/exhibition/</loc>
 		<lastmod>2024-09-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/tags/infrastructure/</loc>
+		<loc>https://example.com/tags/infrastructure/</loc>
 		<lastmod>2024-09-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/tags/real-bodies/</loc>
+		<loc>https://example.com/tags/recent/</loc>
 		<lastmod>2024-09-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/tags/party/</loc>
+		<loc>https://example.com/tags/talk/</loc>
 		<lastmod>2024-09-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/tags/workshop/</loc>
+		<loc>https://example.com/tags/lore/</loc>
 		<lastmod>2024-09-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/tags/talk/</loc>
+		<loc>https://example.com/tags/zine/</loc>
 		<lastmod>2024-09-09</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/tags/servpub/</loc>
+		<loc>https://example.com/tags/real-bodies/</loc>
 		<lastmod>2024-09-09</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/tags/party/</loc>
+		<lastmod>2024-09-09</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/projects/real-bodies-2.1/</loc>
+		<lastmod>2024-09-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/projects/losing-the-plot/</loc>
+		<lastmod>2024-11-07</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/</loc>
+		<lastmod>2025-05-08</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/people/bdesouky/</loc>
+		<lastmod>2025-05-08</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/projects/</loc>
+		<lastmod>2025-05-08</lastmod>
 	</url>
 </urlset>
