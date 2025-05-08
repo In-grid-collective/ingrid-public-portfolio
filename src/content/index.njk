@@ -5,17 +5,17 @@ numberOfLatestProjectsToShow: 7
 
   <div class="rounded-lg font-Test2 pointer-events-none relative flex overflow-hidden shadow-lg shadow-indigo-600 border border-dashed border-y-indigo-600 py-2 ">
     <div class="animate-marquee text-zinc-500 flex min-w-full shrink-0 items-center justify-around  ">
-          <span class="mx-4 text-2xl">TRANSNATIONAL ANTI-COLONIAL TRANS★FEMINIST COUNTER CLOUD ACTION DAY</span>
+          <span class="mx-4 text-2xl"> * ServPub * a platform for research & practice on experimental & computational publishing *</span>
     </div>
     <div aria-hidden="true" class="text-zinc-500 animate-marquee flex min-w-full shrink-0 items-center justify-around ">
-             <span class="mx-4 text-2xl">TRANSNATIONAL ANTI-COLONIAL TRANS★FEMINIST COUNTER CLOUD ACTION DAY</span>
+             <span class="mx-4 text-2xl">* ServPub * a platform for research & practice on experimental & computational publishing *</span>
     </div>
   </div>
 <div class="rounded-lg place-items-center grid grid-cols-1 md:grid-cols-2 lg:gap-8 shadow-lg shadow-indigo-600 ">
   <div class="p-8 ">
-    <h1>Research Workshop 2024: Content/Form</h1>
-    <p class="py-8">The participants of this year’s workshop will present their reflections on ways to collapse traditional workflows of academic publishing, drawing form and content more closely together. </p>
-    <p class="text-indigo-600 hover:text-black hover:bg-zinc-300 font-main"><a href="./projects/collective-infrastructure/"> ->> More info</a></p>
+    <h1>Servpub</h1>
+    <p class="py-8">We are one of the participating communities in ServPub an experimental infrastructure project. We are currently writing a book supported by The Open Book Futures (OBF) <a target="_blank" href="https://copim.pubpub.org/experimental-publishing-group">Experimental Publishing Group</a>. Read the <a target="_blank" href="https://copim.pubpub.org/pub/pilot-project-documentation-servpub2/release/1">the latest blog about the Servpub book project.</a></p>
+    <p class="text-indigo-600 hover:text-black hover:bg-zinc-300 font-main"><a href="https://servpub.net/" target="_blank"> ->> More info at servpub.net</a></p>
 
   </div>
   <div class="">
@@ -63,25 +63,14 @@ numberOfLatestProjectsToShow: 7
 
 
 </div>
-    <!-- Swiper -->
-  <h1 class="rounded-md font-Test2 m-4 ">Project Categories</h1>
-  <div class="swiper shadow-lg shadow-indigo-600 ">
-    <div class="swiper-wrapper ">
+
+<h1 class="rounded-md font-Test2 m-4 ">Project Categories</h1>
+<div class="text-center px-8 py-4 mt-4 border-indigo-600 border border-dotted">
     {% for tag in collections.all | getAllTags | filterTagList %}
         {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-        {% set projectlist = collections[ tag ] %}
-        <div class="swiper-slide flex flex-col">
-        <div class="avatar">
-        <div class="w-24 rounded">
-        <img src="https://www.in-grid.io/wp-content/uploads/2020/05/subversive-shadows_compress.gif" />  </div></div>
-        <a href="{{ tagUrl }}" class="font-Test3 font-bold rounded-md text-indigo-600 hover:text-black hover:bg-zinc-300">{{ tag }}</a>{%- if not loop.last %} {% endif %}
-        </div>
+        <a href="{{ tagUrl }}" class="hover:text-black hover:bg-zinc-300">{{ tag }}</a>{%- if not loop.last %} &nbsp; |  &nbsp; {% endif %}
     {% endfor %}
-    </div>
-    <div class="swiper-button-next text-indigo-600 hover:text-gray-500"></div>
-    <div class="swiper-button-prev text-indigo-600 hover:text-gray-500"></div>
-  </div>
-
+</div>
 
         
 

@@ -84,6 +84,9 @@
 		background-color: rgb(79 70 229);
 		color:white;
 	}
+	a {
+		text-decoration: underline;
+	}
 }
 
 
