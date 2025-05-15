@@ -92,6 +92,16 @@
 	</url>
 	
 	<url>
+		<loc>https://example.com/ingrid-public-portfolio/tags/strike/</loc>
+		<lastmod>2024-07-02</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/ingrid-public-portfolio/tags/counter-cloud/</loc>
+		<lastmod>2024-07-02</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://example.com/ingrid-public-portfolio/tags/shadow-subversions/</loc>
 		<lastmod>2024-07-02</lastmod>
 	</url>
@@ -117,26 +127,6 @@
 	</url>
 	
 	<url>
-		<loc>https://example.com/ingrid-public-portfolio/tags/strike/</loc>
-		<lastmod>2024-07-02</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://example.com/ingrid-public-portfolio/tags/counter-cloud/</loc>
-		<lastmod>2024-07-02</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://example.com/ingrid-public-portfolio/tags/live-performance/</loc>
-		<lastmod>2024-07-02</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://example.com/ingrid-public-portfolio/tags/exhibition/</loc>
-		<lastmod>2024-07-02</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://example.com/ingrid-public-portfolio/tags/workshop/</loc>
 		<lastmod>2024-07-02</lastmod>
 	</url>
@@ -148,6 +138,16 @@
 	
 	<url>
 		<loc>https://example.com/ingrid-public-portfolio/tags/servpub/</loc>
+		<lastmod>2024-07-02</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/ingrid-public-portfolio/tags/live-performance/</loc>
+		<lastmod>2024-07-02</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/ingrid-public-portfolio/tags/exhibition/</loc>
 		<lastmod>2024-07-02</lastmod>
 	</url>
 	
