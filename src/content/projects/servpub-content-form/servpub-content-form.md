@@ -28,7 +28,7 @@ credits:
 ---
 
 
-The participants of the 2024 workshop presented their reflections on ways to collapse traditional workflows of academic publishing, drawing form and content more closely together. Rooted by the interest of researchers in how technological and social forms come together, the presentations, as well as the resulting publication, invite the audience to reflect on the use and value of affective infrastructures, autonomous networks, and shared organisational processes. In support of this, the participants used [Wiki4Print](https://wiki4print.servpub.net/), an experimental platform for research and practice on computational publishing, facilitated by In-grid, Systerserver, and Varia/CC. A collective publication, Content/Form, was subsequently launched and is available [here] (https://aprja.net//announcement/view/1158).
+The participants of the 2024 workshop presented their reflections on ways to collapse traditional workflows of academic publishing, drawing form and content more closely together. Rooted by the interest of researchers in how technological and social forms come together, the presentations, as well as the resulting publication, invite the audience to reflect on the use and value of affective infrastructures, autonomous networks, and shared organisational processes. In support of this, the participants used <a href="https://wiki4print.servpub.net/" target="_blank">wiki4Print</a>, an experimental platform for research and practice on computational publishing, facilitated by In-grid, Systerserver, and Varia/CC. A collective publication, Content/Form, was subsequently launched and is available <a href="https://aprja.net//announcement/view/1158" target="_blank">here</a>
 
 Workshop participants: Bilyana Palankasova, Denise Sumi, Pierre Depaz, Martyna Marciniak, Edoardo Biscossi, Anya Shchetvina, Esther Rizo Casado, Luca Cacini, Sin Yi Choi, Kendal Beynon, Mateus Domingos, Marie Naja Lauritzen Dias, Asker Bryld Staunæs, Maja Bak Herrie, Duncan Paterson, Mariana Marangoni.
 
@@ -37,7 +37,7 @@ In collaboration with Christian Ulrik Andersen, Geoff Cox, Winnie Soon, Pablo Ve
 The workshop was organised by SHAPE Digital Citizenship and Digital Aesthetics Research Center (Aarhus University), and the Centre for the Study of the Networked Image (London South Bank University), in collaboration with transmediale.
 
 Content/Form newspaper:
-https://darc.au.dk/publications/peer-reviewed-newspaper
+<a href="https://darc.au.dk/publications/peer-reviewed-newspaper" target="_blank">here</a>
 
 
 
