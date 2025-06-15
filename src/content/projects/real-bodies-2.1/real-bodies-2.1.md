@@ -69,6 +69,6 @@ credits:
 
 On the 18th of September, In-grid collective will host a night of experimental sound and multimedia art at Avalon Cafe. Featuring audio-visual performances and computational/participatory artworks, exploring the concept of bodies transformed/body transformation.
 
-In-grid is a trans*feminist collective of artists/educators/technologists working in and around digital infrastructures. In-grid has been working together since 2019, and is made up of a fluid group of people dispersed globally.
+In-grid is a trans*feminist collective of artists / educators / technologists working in and around digital infrastructures. In-grid has been working together since 2019, and is made up of a fluid group of people dispersed globally.
 
 Our multidisciplinary practice spans computing, data visualisation, audiovisual performance, DIY electronics, networked experiences, human-machine collaboration and more. We interrogate digital labour and technological systems while embracing collective practices and knowledge sharing.
