@@ -14,7 +14,7 @@ imagegallery:
     - workshop2.jpg
 
 credits:
-  - id: baston
+  - id: raston
     role: producer 
   - id: ktindle
     role: producer 

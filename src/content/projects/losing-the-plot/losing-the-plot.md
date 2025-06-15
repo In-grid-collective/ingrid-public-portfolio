@@ -9,7 +9,6 @@ tags:
   - live performance
   - lore
   - zine
-  - recent
 imagegallery: 
     - batool2.JPEG
     - chris1.jpeg

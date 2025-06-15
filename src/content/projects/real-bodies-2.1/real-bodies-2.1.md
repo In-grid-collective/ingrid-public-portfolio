@@ -8,7 +8,6 @@ tags:
   - party
   - live performance
   - exhibition
-  - recent
 imagegallery: 
   - avalon1.png
   - avalon2.png

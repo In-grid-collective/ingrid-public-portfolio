@@ -58,3 +58,5 @@ credits:
 ---
 
 Clubs are refracted spaces, experienced by their visitors as serving a spectrum of functions. They are places to converge and meld bodies into dance monstrosities. They are the site of introspection, of a mindful hedonism, for an individual alone in a smoking area. Or else they are safe spaces, a room in which to comfortably self destruct. In-grid collective gathered a group of artists, musicians and creative technologists to share work about the transmutational potential of the club venue at Corsica Studios, marking the beginning of the RealBodies series of events.
+
+With invited guests Hannah Corrie and Felix Loftus performing.

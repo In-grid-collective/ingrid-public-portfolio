@@ -22,27 +22,33 @@ credits:
     role: participating artist
   - id: bdesouky
     role: participating artist
-  - id: dalsa
+  - id: jlawton
+    role: participating artist
+  - id: ymorgan
+    role: participating artist
+  - id: rhall
+    role: participating artist
+  - id: dalsaleh
     role: participating artist
   - id: bba
     role: participating artist
-  - id: jche
+  - id: jchen
     role: participating artist
-  - id: pgob
+  - id: pgobel
     role: participating artist
-  - id: lmui
+  - id: lmuizaraja
     role: participating artist
-  - id: kokp
+  - id: kokpoti
     role: participating artist
-  - id: gpaz
+  - id: gpaszti
     role: participating artist
-  - id: asan
+  - id: asang
     role: participating artist
   - id: zwu
     role: participating artist
-  - id: hyord
+  - id: hyordanov
     role: participating artist
-  - id: yzha
+  - id: yzhang
     role: participating artist
 ---
 

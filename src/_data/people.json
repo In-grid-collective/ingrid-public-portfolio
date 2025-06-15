@@ -9,7 +9,7 @@
 		"instagram":"sun.seeking.goth"
 	},
 	{
-		"key":"csv",
+		"key":"cspeed",
 		"name":"Chris Speed",
 		"active": true,
 		"bio":"Chris Speed Visuals (CSV) is an audiovisual artist, DJ and academic based in London. Equally at home creating immersive installations for gallery spaces as mixing rhythms on the dancefloor, CSV has worked with a variety of art organisations from FOLD, Corsica Studios and Arebyte Gallery as well as several research collectives. He also teaches sound design and game programming at the Point Blank Music School and University of Greenwich.",
@@ -117,7 +117,42 @@
 		"instagram":"ywnj1n"
 	},
 	{
-		"key": "dalsa",
+		"key": "jlawton",
+		"name":"James Lawton",
+		"active": false,
+		"arebyteresident": true,
+		"website":""
+	},
+	{
+		"key": "rbiros",
+		"name":"Romain Biros",
+		"active": false,
+		"arebyteresident": false,
+		"website":""
+	},
+	{
+		"key": "ntownsend",
+		"name":"Nate Townsend",
+		"active": false,
+		"arebyteresident": false,
+		"website":""
+	},
+	{
+		"key": "ymorgan",
+		"name":"Yasmin Morgan",
+		"active": false,
+		"arebyteresident": true,
+		"website":""
+	},
+	{
+		"key": "rhall",
+		"name":"Rob Hall",
+		"active": false,
+		"arebyteresident": true,
+		"website":""
+	},
+	{
+		"key": "dalsaleh",
 		"name":"Dania Alsaleh",
 		"active": false,
 		"arebyteresident": true,
@@ -131,42 +166,42 @@
 		"website":""
 	},
 	{
-		"key": "jche",
+		"key": "jchen",
 		"name":"Jingyi Chen",
 		"active": false,
 		"arebyteresident": true,
 		"website":""
 	},
 	{
-		"key": "pgob",
+		"key": "pgobel",
 		"name":"Panja Göbel",
 		"active": false,
 		"arebyteresident": true,
 		"website":""
 	},
 	{
-		"key": "lmui",
+		"key": "lmuizaraja",
 		"name":"Lauma Muizaraja",
 		"active": false,
 		"arebyteresident": true,
 		"website":""
 	},
 	{
-		"key": "kokp",
+		"key": "kokpoti",
 		"name":"Karen Okpoti",
 		"active": false,
 		"arebyteresident": true,
 		"website":""
 	},
 	{
-		"key": "gpaz",
+		"key": "gpaszti",
 		"name":"Gabor Paszti",
 		"active": false,
 		"arebyteresident": true,
 		"website":""
 	},
 	{
-		"key": "asan",
+		"key": "asang",
 		"name":"Anna Sang",
 		"active": false,
 		"arebyteresident": true,
@@ -180,14 +215,14 @@
 		"website":""
 	},
 	{
-		"key": "hyord",
+		"key": "hyordanov",
 		"name":"Hristo Yordanov",
 		"active": false,
 		"arebyteresident": true,
 		"website":""
 	},
 	{
-		"key": "yzha",
+		"key": "yzhang",
 		"name":"Yishuai Zhang",
 		"active": false,
 		"arebyteresident": true,
