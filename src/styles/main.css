@@ -35,6 +35,7 @@
 		@apply text-indigo-600;
 		@apply font-main;
 		@apply text-lg;
+		@apply bg-white;
 	}
 	
 	h1 {
