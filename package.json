@@ -13,7 +13,8 @@
     "build:11ty": "eleventy",
     "dev:11ty": "eleventy --serve",
     "build:webpack": "webpack --mode production",
-    "build:eleventy": "ELEVENTY_ENV=production eleventy --pathprefix=/ingrid-public-portfolio",
+    "build:eleventy": "ELEVENTY_ENV=production eleventy",
+    "github-eleventy-holder": "ELEVENTY_ENV=production eleventy --pathprefix=/ingrid-public-portfolio",
     "dev:css": "tailwindcss -i src/styles/main.css -o _site/assets/main.css --watch --postcss",
     "build:css": "tailwindcss -i src/styles/main.css -o _site/assets/main.css",
     "deploy": "gh-pages -d _site"
