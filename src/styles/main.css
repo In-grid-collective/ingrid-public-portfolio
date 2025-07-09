@@ -36,6 +36,7 @@
 		@apply font-main;
 		@apply text-lg;
 		@apply bg-white;
+		background-color: white!important;
 	}
 	
 	h1 {
