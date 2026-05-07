@@ -132,17 +132,17 @@
 	</url>
 	
 	<url>
-		<loc>https://example.com/tags/real-bodies/</loc>
-		<lastmod>2026-05-05</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://example.com/tags/party/</loc>
-		<lastmod>2026-05-05</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://example.com/tags/workshop/</loc>
+		<lastmod>2026-05-05</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/tags/research/</loc>
+		<lastmod>2026-05-05</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/tags/servpub/</loc>
 		<lastmod>2026-05-05</lastmod>
 	</url>
 	
@@ -162,6 +162,16 @@
 	</url>
 	
 	<url>
+		<loc>https://example.com/tags/real-bodies/</loc>
+		<lastmod>2026-05-05</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/tags/party/</loc>
+		<lastmod>2026-05-05</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://example.com/tags/shifting-chronology/</loc>
 		<lastmod>2026-05-05</lastmod>
 	</url>
@@ -177,12 +187,12 @@
 	</url>
 	
 	<url>
-		<loc>https://example.com/tags/shadow-subversions/</loc>
+		<loc>https://example.com/tags/alter-worlds/</loc>
 		<lastmod>2026-05-05</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://example.com/tags/servpub/</loc>
+		<loc>https://example.com/tags/shadow-subversions/</loc>
 		<lastmod>2026-05-05</lastmod>
 	</url>
 	
@@ -193,16 +203,6 @@
 	
 	<url>
 		<loc>https://example.com/tags/counter-cloud/</loc>
-		<lastmod>2026-05-05</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://example.com/tags/alter-worlds/</loc>
-		<lastmod>2026-05-05</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://example.com/tags/research/</loc>
 		<lastmod>2026-05-05</lastmod>
 	</url>
 	
