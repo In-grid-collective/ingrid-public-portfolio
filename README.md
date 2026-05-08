@@ -92,7 +92,7 @@ npm run serve
 npm run build
 ```
 
-Then to push to the github pages branhc run:
+Then to push to the github pages branch run:
 
 ```
 npm run deploy
@@ -102,7 +102,7 @@ After a few minutes you should see you changes appear here:
 
 [https://in-grid-collective.github.io/ingrid-public-portfolio/](https://in-grid-collective.github.io/ingrid-public-portfolio/)
 
-
+What is deployed is the local saved files, not anything hosted on github.
 
 ## How To
 
