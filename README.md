@@ -102,7 +102,7 @@ After a few minutes you should see you changes appear here:
 
 [https://in-grid-collective.github.io/ingrid-public-portfolio/](https://in-grid-collective.github.io/ingrid-public-portfolio/)
 
-What is deployed is the local saved files, not anything hosted on github.
+What is deployed is the local saved files, via the github gh-pages branch.
 
 ## How To
 
