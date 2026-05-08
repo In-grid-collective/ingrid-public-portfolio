@@ -92,6 +92,11 @@
 }
 
 
+ul{
+	padding-left: 25px;
+    line-height: 1em;
+    list-style: circle;
+}
 
 img {
 	width: 100%;
