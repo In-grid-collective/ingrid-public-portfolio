@@ -2,7 +2,7 @@
 title: DDcommons
 description: Digital Space Made With and For Women… starting in Dundee. We are working with and for women to explore what a new community-led internet might look and feel like.
 
-date: 2026-04-01
+date: 2025-08-25
 icon: dd2-fullsize.png
 tags: 
     - ddcommons
