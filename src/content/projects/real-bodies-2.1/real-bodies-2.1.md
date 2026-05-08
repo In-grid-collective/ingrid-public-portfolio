@@ -53,6 +53,8 @@ credits:
     role: participating artist
   - id: hryan
     role: participating artist
+  - id: trosser
+    role: participating artist
   - id: vradchenko
     role: producer
   - id: cspeed
