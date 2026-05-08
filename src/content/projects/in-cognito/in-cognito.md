@@ -1,9 +1,9 @@
 ---
 title: In-Cognito
-description: In cognito was...
+description: In-cognito was a live performance, AV event and Halloween Party.
 
-date: 2026-04-01
-icon: spooky2.JPG
+date: 2025-10-29
+icon: csv5.JPG
 tags: 
     - party
     - exhibition
@@ -12,7 +12,24 @@ imagegallery:
   - spooky1.JPG
   - spooky2.JPG
   - spooky3.JPG
-
+  - 1.JPG
+  - 2.JPG
+  - 3.JPG
+  - becky1.JPG
+  - becky2.JPG
+  - bunny1.JPG
+  - bunny2.JPG
+  - bunny3.JPG
+  - bunny4.JPG
+  - csv1.JPG
+  - csv2.JPG
+  - csv3.JPG
+  - csv4.JPG
+  - csv5.JPG
+  - csv6.JPG
+  - csv7.JPG
+  - val1.JPG
+  - val2.JPG
 
 credits:
   - id: hryan
@@ -44,5 +61,5 @@ credits:
 
 ## InTouch
 
-InTouch is a...
+Artists played with the idea of being in disguise, obscured, hidden or acting in an alter-ego. Work touched on topics including RPGs, surveillance and technical infrastructures. Artists shared music, performances, AV sets and film work. Halloween costumes were encouraged.
 Invited guests were [trampbunny](https://ra.co/dj/trampbunny), [Irini Kalaitzidi](https://irinikalaitzidi.com/) and Something About The Worm.

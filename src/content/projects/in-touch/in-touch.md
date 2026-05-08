@@ -1,13 +1,16 @@
 ---
 title: In-Touch
-description: In touch was...
+description: A performance evening and club night by your favourite exquisit cor-llective.
 
-date: 2026-04-01
-icon: commons.png
+date: 2026-01-24
+icon: screen.jpeg
 tags: 
     - party
     - exhibition
     - live performance
+imagegallery:
+  - boxes.jpeg
+  - screen.jpeg
 
 credits:
   - id: cspeed
@@ -39,5 +42,5 @@ credits:
 
 ## InTouch
 
-InTouch is a...
+In-grid: The night included collaborative works by In-grid members in collaboration with a larger network of artists, technologists and musicians. In touch was based on the concept of In-grid as an exquisite corpse of members, practices and collaborators. 
 Invited guests were Leask, Fion Campbell-Davies, Armando Gonzalez Sosto, and Sam Ludford.
